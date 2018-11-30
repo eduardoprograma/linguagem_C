@@ -1,0 +1,2 @@
+/*Escreva um programa que imprima os seguintes padrões separadamente, um abaixo do outro. Use loops for para gerar os padrões. Todos os asteriscos (*) devem ser impressos por uma única instrução printf na forma printf ("*"); (isto faz com que os asteriscos sejam impressos lado a lado). Sugestão: Os dois últimos padrões exigem que cada linha comece com um número adequado de espaços em branco. 
+(A) (B) (C) (D)*/

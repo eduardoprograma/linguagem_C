@@ -1,0 +1,7 @@
+/*Escreva um programa que use a geração de números aleatórios para criar frases. O programa deve usar quatro arrays de ponteiros char denominados artigo, substantivo, verbo e preposição. O programa deve criar uma frase selecionando uma palavra aleatoriamente de cada array na seguinte ordem: artigo, substantivo, verbo, preposição, artigo e substantivo. A medida que cada palavra for selecionada, ela deverá ser concatenada às palavras anteriores em um array que seja suficientemente grande para conter a frase inteira. As palavras devem ser separadas pofespaços. Quando a frase final for enviada para o dispositivo de saída, ela deve iniciar com uma letra maiúscula e terminar com um ponto. O programa deve gerar 20 de tais frases.
+
+Os arrays devem ser preenchidos como se segue: o array artigo deve conter "o",
+"um", "algum", "todo" e "qualquer"; o array substantivo deve conter "menino", "homem", "cachorro", "carro", "gato"; o array verbo deve conter "passou", "pulou", "correu", "saltos", "andou"; o array preposição deve conter "sobre", "sob", "ante", "ate" e "com".
+
+Depois de o programa anterior estar escrito e funcionando, modifique-o para
+produzir uma pequena história consistindo em várias frases. (Imagine a possibilidade de se obter um gerador aleatório de dissertações escolares!)*/

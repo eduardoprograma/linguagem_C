@@ -1,0 +1,1 @@
+/*A função main pode ser chamada recursivamente? Escreva um programa contendo a função main. Inclua a variável static local contagem inicializada em 1. Pósincremente e imprima o valor de contagem cada vez que main for chamada. Rode seu programa. O que acontece?*/

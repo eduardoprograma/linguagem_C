@@ -1,0 +1,1 @@
+/*Calcule o valor de ir a partir da série infinita . 4,4 4,4 4 , 3 5 7 9 11 Imprima uma tabela que mostra o valor de (pi) aproximado por 1 termo dessa série, por dois termos, por três termos etc. Quantos termos dessa série são necessários para obter 3.14? 3.141? 3.1415? 3.14159?*/

@@ -1,0 +1,5 @@
+/*Escreva uma instrução ou um conjunto de instruções em C para realizar cada uma das seguintes tarefas: 
+a) Somar os inteiros ímpares entre 1 e 99 usando uma estrutura for. Admita que as variáveis inteiras soma e contagem já foram declarados. 
+b) Imprima o valor 333.546372 em um campo com 15 caracteres com precisões de 1, 2, 3, 4 e 5. Alinhe (justifique) a saída pela esquerda. Quais os cinco valores impressos? 
+c) Calcule o valor de 2,5 elevado ao cubo (potência 3) usando a função pow. Imprima o resultado com uma precisão de 2 em um campo com largura de 10 posições. Qual o valor impresso? 
+d) Imprima os inteiros de 1 a 20 usando um loop while e a variável x. Considere que a variável x já foi declarada, mas não inicializada. Imprima somente 5 inteiros por linha. Sugestão: Use o cálculo x % 5. Quando o valor desse cálculo for 0, imprima um caractere de nova linha; caso contrário, imprima um caractere de tabulação. Repita o exercício 4.3(d) usando uma estrutura for.*/

@@ -1,0 +1,1 @@
+/*Escreva um programa que receba várias linhas de texto e um caractere de busca, e use a função strchr para determinar o total de ocorrências do caractere nas linhas de texto.*/

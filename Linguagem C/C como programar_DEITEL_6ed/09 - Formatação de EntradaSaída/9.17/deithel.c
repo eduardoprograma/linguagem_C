@@ -1,0 +1,1 @@
+/*Escreva um programa que use cada um dos especificadores de conversão e, f e g para receber a entrada do valor 1.2345. Imprima os valores de cada variável para provar que cada especificador de conversão pode ser usado para receber a entrada do mesmo valor.*/

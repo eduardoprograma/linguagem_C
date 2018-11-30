@@ -1,0 +1,1 @@
+/*Escreva um programa que desloque para a direita uma variável inteira de 4 bits. O programa deve imprimir o inteiro em bits antes e depois da operação de deslocamento. O seu sistema coloca Os ou ls nos bits liberados?*/

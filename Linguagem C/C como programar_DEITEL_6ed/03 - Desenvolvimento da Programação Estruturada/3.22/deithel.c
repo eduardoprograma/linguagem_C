@@ -1,0 +1,1 @@
+/*Escreva um programa em C que demonstre a diferença entre pré-decrementar e pósdecrementar usando o operador de decremento - -.*/

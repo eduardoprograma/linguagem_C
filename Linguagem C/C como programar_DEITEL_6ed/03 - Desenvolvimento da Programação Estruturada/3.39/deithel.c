@@ -1,0 +1,1 @@
+/*Escreva um programa em C que leia um inteiro, determine quantos dígitos são iguais a 7 e imprima esta informação.*/

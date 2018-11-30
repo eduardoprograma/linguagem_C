@@ -1,0 +1,1 @@
+/*Faça uma função que receba um vetor X de 20 de números reais, por parametro, e retorne a soma dos elementos de X.*/

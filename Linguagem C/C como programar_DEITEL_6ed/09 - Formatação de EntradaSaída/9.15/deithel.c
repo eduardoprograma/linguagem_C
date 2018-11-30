@@ -1,0 +1,1 @@
+/*Escreva um programa que determine se ? pode ser impresso como parte de uma string de controle de formato de printf como um caractere literal em vez de usar a seqüência de escape \?.*/

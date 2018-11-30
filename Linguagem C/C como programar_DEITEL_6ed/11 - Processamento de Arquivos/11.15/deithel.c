@@ -1,0 +1,1 @@
+/*Modifique o exemplo da Fig. 8.14 para usar as funções f getc e fputs em vez de getchar e puts. O programa deve oferecer ao usuário a opção de ler da entrada padrão e escrever na saída padrão ou de ler em um arquivo especificado e gravar em outro arquivo especificado. Se o usuário escolher a segunda opção, precisará fornecer os nomes dos arquivos para entrada e saída.*/

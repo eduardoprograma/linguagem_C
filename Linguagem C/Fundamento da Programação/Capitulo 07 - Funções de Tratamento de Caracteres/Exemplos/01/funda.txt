@@ -1,0 +1,9 @@
+1. Faça um programa que receba uma frase,calcule e mostre a quantidade de palavras da frase digitada.
+
+SOLUÇÃO:
+    *   Digitar uma frase
+    *   Pegar o tamanho da frase
+    *   Percorrer a frase pegando caractere a caractere
+    *   Comparar cada caractere com espaço em branco
+    *   Quando encontrar espaço, encontrou o fim da palavra em branco
+    *   Como após a ultima plavra não tem espaço, acrescentar-se um na qualidade.

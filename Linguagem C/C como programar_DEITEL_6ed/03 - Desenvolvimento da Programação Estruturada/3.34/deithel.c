@@ -1,0 +1,1 @@
+/*Modifique o programa escrito no Exercício 3.33 de forma que seja impresso um quadrado vazado. Por exemplo, se seu programa lesse um tamanho 5, deveria imprimir*/

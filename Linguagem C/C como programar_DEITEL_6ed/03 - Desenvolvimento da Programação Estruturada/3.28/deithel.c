@@ -1,0 +1,1 @@
+/*Modifique o programa da Fig. 3.10 para validar suas entradas. Em qualquer entrada, se o valor fornecido for diferente de 1 ou 2, permaneça no loop até que o usuário forneça um valor válido.*/

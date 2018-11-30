@@ -1,0 +1,1 @@
+/*(Pesquisa Binária) Modifique o programa da Fig. 6.19 para usar uma função recursiva pesqBinar para realizar a pesquisa binária no array. A função deve receber um array inteiro e os subscritos inicial e final como argumentos. Se a chave de busca (pesquisa) for encontrada, retorne o subscrito do array; caso contrário, retorne — 1.*/

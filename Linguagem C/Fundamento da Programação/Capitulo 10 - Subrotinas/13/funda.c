@@ -1,0 +1,2 @@
+/*Foi realizada uma pesquisa entre 15 habitantes de uma região. De cada habitante foram coletados os dados: idade, sexo, salário e número de filhos.
+    Faça uma função que leia esses dados em uma vetor. Faça funções que recebam esse vetor, por parâmetro, e retornem a média de salário entre os habitantes, a menor e a maior idade do grupo e a quantidade de mulheres  com três  filhos  que receba atá T4 500,00 (utilize uma função para cada calculo).*/

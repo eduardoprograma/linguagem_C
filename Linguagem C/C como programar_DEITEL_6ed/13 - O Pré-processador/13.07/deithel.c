@@ -1,0 +1,1 @@
+/*Escreva um programa que use a macro MINIMUM3 para determinar o menor de três valores numéricos. A macro MINIMUM3 deve usar a macro MINIMÜM2 definida no Exercício 13.6 para determinar o menor número. Entre com os valores a partir do teclado.*/

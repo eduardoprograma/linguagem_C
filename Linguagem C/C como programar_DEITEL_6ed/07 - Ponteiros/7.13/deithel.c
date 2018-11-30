@@ -1,0 +1,1 @@
+/*Use as funções desenvolvidas no Exercício 7.12 para escrever um programa que distribua duas mãos poquer com cinco cartas, avalie cada mão e determine a melhor.*/

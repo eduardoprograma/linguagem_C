@@ -1,0 +1,1 @@
+/*Faça uma função que receba, por parametro, dois vetores de dez números inteiros, determine e mostre o vetor intersecção dos dois vetores.*/

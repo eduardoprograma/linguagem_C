@@ -1,0 +1,1 @@
+/*Escreva uma função que utilize um valor inteiro e retorna o número com seus dígitos invertidos. Por exemplo, dado o número 7631, a função deve retornar 1367.*/

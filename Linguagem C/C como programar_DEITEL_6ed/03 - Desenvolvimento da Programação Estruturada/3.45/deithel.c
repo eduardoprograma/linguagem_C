@@ -1,0 +1,1 @@
+/*Escreva um programa que leia três inteiros diferentes de zero e depois determine e imprima se eles podem ser os lados de um triângulo retângulo.*/

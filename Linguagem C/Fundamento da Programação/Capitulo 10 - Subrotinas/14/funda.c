@@ -1,0 +1,1 @@
+/*Faça uma função que receba um vetor X de 30 elementos inteiros, por parâmetro, e retorne  dois vetores A e B. O vetor A deve conter os elementos pares de X e o vetor B, os elementos ímpares. */

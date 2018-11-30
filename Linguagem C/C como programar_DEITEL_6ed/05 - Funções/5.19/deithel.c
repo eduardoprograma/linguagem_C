@@ -1,0 +1,2 @@
+/*Escreva uma função que mostre, na margem esquerda da tela, um quadrado de asteriscos cujo lado é especificado por um parâmetro inteiro lado. Por exemplo, se lado for igual a 4, a função exibe
+figura pagina 238.*/

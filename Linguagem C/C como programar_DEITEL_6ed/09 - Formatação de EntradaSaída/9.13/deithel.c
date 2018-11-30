@@ -1,0 +1,3 @@
+/*Escreva um programa que converta temperaturas inteiras em Fahrenheit de 0 a 212 graus para temperaturas Celsius em ponto flutuante com 3 dígitos de precisão. Use a fórmula 
+    celsius = 5.0 / 9.0 * (fahrenheit - 32); 
+para realizar os cálculos. A saída deve ser impressa em duas colunas justificadas à direita com 10 caracteres cada e as temperaturas Celsius devem ser precedidas de um sinal tanto para valores positivos quanto negativos.*/

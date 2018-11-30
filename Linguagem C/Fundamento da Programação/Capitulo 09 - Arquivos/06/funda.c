@@ -1,0 +1,1 @@
+/*Faça um programa que altere um recebimento de um cliente, ou seja,  o usuário informa o número do documento e o número do cliente e faz as alterações desjadas.*/

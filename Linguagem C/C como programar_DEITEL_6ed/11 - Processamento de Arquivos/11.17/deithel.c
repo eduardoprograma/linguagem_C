@@ -1,0 +1,6 @@
+/*No Exercício 7.19, você escreveu uma simulação de software de computador que usou uma
+linguagem de máquina especial chamada Linguagem de Máquina Simpletron (LMS). Na simulação, cada vez que você quisesse rodar um programa LMS, digitava o programa no simulador. Se você cometesse um erro ao digitar o programa LMS, o simulador era reiniciado e o código LMS era digitado novamente. Seria bom ter a capacidade de ler um programa LMS de um arquivo em vez de digitá-lo todas as vezes. Isso reduziria o tempo e os erros na preparação da execução de programas LMS.
+    a) Modifique o simulador escrito no Exercício 7.19 para ler programas LMS de um arquivo especificado pelo usuário no teclado.
+    b) Depois de o Simpletron ser executado, ele imprime na tela o conteúdo de seus registros e memória. Seria bom capturar a saída do arquivo, sendo assim modifique o simulador para imprimir sua saída em um arquivo além de exibir a saída na tela
+As estruturas são usadas normalmente para definir registros a serem armazenados em
+arquivos (veja o Capítulo 11, "Processamento de Arquivos"). Os ponteiros e as estruturas facilitam a formação de estruturas mais complexas de dados como listas encadeadas, filas (queues), pilhas (stacks) e árvores (veja o Capítulo 12, "Estruturas de Dados").*/

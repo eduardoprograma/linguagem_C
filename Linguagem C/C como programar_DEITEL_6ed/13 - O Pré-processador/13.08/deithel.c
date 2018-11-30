@@ -1,0 +1,1 @@
+/*Escreva um programa que use a macro IMPRIMIR para imprimir o valor de uma string.*/

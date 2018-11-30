@@ -1,0 +1,1 @@
+/*Escreva um programa que receba a entrada do valor 437 usando cada um dos especificadores de conversão de inteiros de scanf. Imprima cada valor de entrada usando todos os especificadores de conversão de inteiros.*/

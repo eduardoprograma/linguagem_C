@@ -1,0 +1,1 @@
+/*Escreva um programa que receba uma série de inteiros e remeta um deles de cada vez para a função even que usa o operador resto (modulus) para determinar se um inteiro é par. A função deve utilizar um argumento inteiro e retornar 1 se o inteiro for par e 0 em caso contrário.*/

@@ -1,0 +1,2 @@
+Nos Exercícios 7.18 e 7.19, apresentamos a Linguagem de Máquina Simpletron
+(LMS) e criamos o simulador de computador Simpletron para executar programas escritos em LMS. Nesta seção, construímos um compilador que converte os programas escritos em uma linguagem de programação de alto nível para LMS. Esta seção "une" todo o processo de programação. Escreveremos programas nessa linguagem de alto nível, compilaremos programas no compilador que construímos e executaremos programas no simulador construído no Exercício 7.19.

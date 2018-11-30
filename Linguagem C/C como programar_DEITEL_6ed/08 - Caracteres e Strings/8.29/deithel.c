@@ -1,0 +1,1 @@
+/*Escreva suas próprias versões das funções getchar, gets, putchar e puts descritas na Fig. 8.12.*/

@@ -1,0 +1,1 @@
+/*Escreva um programa que leia o raio de um círculo (como um valor float), calcule seu diâmetro, seu perímetro (circunferência) e sua área e imprima estes valores. Use o valor 3.14.159 para pi.*/

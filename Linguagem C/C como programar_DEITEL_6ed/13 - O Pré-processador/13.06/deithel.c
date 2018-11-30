@@ -1,0 +1,1 @@
+/*Escreva um programa que use a macro MINIMUM2 para determinar o menor de dois valores numéricos. Entre com os valores a partir do teclado*/

@@ -1,0 +1,2 @@
+/*Modifique a função criada no Exercício 5.19 para formar um quadrado de qualquer caracter que esteja contido como parâmetro fillCharacter. Dessa forma, se lado for igual a 5 e fillCharacter for "#". a função deve imprimir
+figura pagina 238.*/

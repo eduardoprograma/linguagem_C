@@ -1,0 +1,1 @@
+/*(Imprimir uma string de trás para a frente) Escreva uma função recursiva inverteString que tome um array de caracteres como argumento, imprima o array de caracteres na ordem inversa e nada retorne. A função deve parar o processamento e retornar quando um caractere nulo de terminação de string for encontrado.*/

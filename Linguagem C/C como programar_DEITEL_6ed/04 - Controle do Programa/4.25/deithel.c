@@ -1,0 +1,1 @@
+/*Imprima uma tabela de valores equivalentes decimais, binários, octais e hexadecimais. Se você não está familiarizado com estes sistemas de numeração, leia inicialmente o Apêndice D se quiser tentar solucionar este exercício.*/

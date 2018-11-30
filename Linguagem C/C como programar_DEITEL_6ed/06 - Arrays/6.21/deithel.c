@@ -1,0 +1,7 @@
+/*(Sistema de Reserva Aérea) Uma pequena companhia aérea acabou de comprar um computador para o seu novo sistema automático de reservas. O presidente pediu a você que programasse o novo sistema em C. Você deve escrever um programa para atribuir assentos a cada vôo do único avião da companhia (capacidade: 10 assentos). Seu programa deve exibir o seguinte menu de alternativas:
+Favor digitar 1 para "fumante" 
+Favor digitar 2 para "naofumante"
+Se a pessoa digitar 1, seu programa deve fazer a reserva de um assento no setor dos fumantes (assentos 1-5). Se a pessoa digitar 2, seu programa deve reservar um assento no setor de não-fumantes (assentos 6-10).
+figura 6.23 pagina 291.
+Seu programa deve então imprimir um cartão de embarque indicando o número do assento do passageiro e se ele se encontra no setor de fumantes ou de não-fumantes do avião. Use um array unidimensional para representar o esquema dos assentos do avião. Inicialize todos os elementos do array com 0 para indicar que todos os assentos estão livres. A medida que cada assento for reservado, iguale os elementos correspondentes a 1 para indicar que o assento não está mais disponível. Seu programa nunca deve, obviamente, reservar um assento que já tenha sido distribuído. Quando o setor de fumantes estiver lotado, seu programa deve perguntar se a pessoa aceita um lugar no setor de não-fumantes (e vice-versa). Em caso positivo,
+faça a reserva apropriada do assento. Em caso negativo, imprima a mensagem "Próximo voo sai em 3 horas."*/

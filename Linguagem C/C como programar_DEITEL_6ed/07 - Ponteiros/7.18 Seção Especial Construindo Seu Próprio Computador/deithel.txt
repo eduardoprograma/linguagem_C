@@ -1,0 +1,2 @@
+Seção Especial: Construindo Seu Próprio Computador 
+Nos vários problemas que se seguem, nos desviamos temporariamente do mundo da programação em linguagem de alto nível. Vamos "remover a cobertura" de um computador e verificar sua estrutura interna. Apresentamos a programação em linguagem de máquina e escrevemos vários programas em linguagem de máquina. Para fazer com que isso seja uma experiência válida, construímos um computador (por intermédio da técnica de simulação baseada em software) no qual você pode executar seus programas em linguagem de máquina.

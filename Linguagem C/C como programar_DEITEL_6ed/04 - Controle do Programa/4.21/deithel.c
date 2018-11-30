@@ -1,0 +1,1 @@
+/*Escreva novamente o programa da Fig. 4.2 de modo que a inicialização da variável contador seja feita na declaração e não na estrutura for.*/

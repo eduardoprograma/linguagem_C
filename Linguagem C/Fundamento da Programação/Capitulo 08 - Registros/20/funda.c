@@ -1,0 +1,1 @@
+/*Faça um programa contendo os serviços que uma oficina mecânica pode realizar. Ordem de serviço (número da OS., data, valor, serviço realizado, cliente). Leia as informações sobre vária ordens de serviço e determinar, ao final, a média dos valores, o nome do cliente que realizou o serviço mais caro. Juntamente com a descrição desse serviço e a data de sua realização.*/

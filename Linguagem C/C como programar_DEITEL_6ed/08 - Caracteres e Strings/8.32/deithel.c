@@ -1,0 +1,1 @@
+/*Escreva suas próprias versões das funções da Fig. 8.30 para manipular blocos de memória*/

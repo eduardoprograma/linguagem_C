@@ -1,0 +1,1 @@
+/*Escreva um programa em C que use as instruções do Exercício 3.7 para calcular x elevado à potência y. O programa deve ter a estrutura dc controle de repetição while. */

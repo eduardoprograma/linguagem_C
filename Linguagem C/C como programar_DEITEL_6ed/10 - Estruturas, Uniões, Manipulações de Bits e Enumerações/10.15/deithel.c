@@ -1,0 +1,1 @@
+/*Se seu sistema usar inteiros de 4 bytes, reescreva o programa do Exercício 10.13 para conter 4 caracteres.*/

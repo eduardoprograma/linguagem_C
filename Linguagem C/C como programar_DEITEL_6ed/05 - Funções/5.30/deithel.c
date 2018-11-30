@@ -1,0 +1,1 @@
+/*Escreva uma função pontosQualif que receba a média de um aluno e retorne 4 se ela estiver no intervalo 90-100, 3 se a média estiver no intervalo 80-89, 2 se a média estiver no intervalo 70-79, 1 se a média estiver no intervalo 60-69, e 0 se a média for menor do que 60.*/

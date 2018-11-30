@@ -1,0 +1,1 @@
+/*Combine as instruções escritas no Exercício 3.4 em um programa que calcule a soma dos inteiros de 1 a 10. Use a estrutura while para fazer um loop através das instruções de cálculo e incremento. O loop deve ter minar quando o valor de x se tornar 11.*/

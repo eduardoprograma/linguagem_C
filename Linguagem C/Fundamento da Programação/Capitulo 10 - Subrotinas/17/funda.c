@@ -1,0 +1,1 @@
+/*Faça uma função que receba, por parametro, um vetor A de 25 números inteiros e substitua todos os valores negativos de A por zero.*/

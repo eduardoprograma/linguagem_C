@@ -1,0 +1,1 @@
+/*Escreva um programa que use a função strncmp para comparar duas strings fornecidas pelo usuário do programa deve receber o número de caracteres a serem comparados. O programa deve indicar se a primeira string é menor, igual ou maior do que a segunda.*/

@@ -1,0 +1,1 @@
+/*Escreva um programa que receba uma linha de texto, divida a linha por meio da função strtok e imprima o resultado na ordem inversa.*/

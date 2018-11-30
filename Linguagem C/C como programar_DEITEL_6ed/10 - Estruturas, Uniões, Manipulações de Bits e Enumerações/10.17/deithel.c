@@ -1,0 +1,1 @@
+/*Escreva um programa que inverta a ordem dos bits de um valor inteiro unsigned. O programa deve receber o valor do usuário e chamar a função inverterBits para imprimir os bits na ordem inversa. Imprima o valor em bits antes e depois de os bits serem invertidos para confirmar que eles foram invertidos corretamente.*/

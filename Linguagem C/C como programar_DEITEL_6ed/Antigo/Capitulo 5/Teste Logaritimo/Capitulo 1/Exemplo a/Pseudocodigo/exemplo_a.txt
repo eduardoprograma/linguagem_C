@@ -1,0 +1,16 @@
+//Logaritimo para multiplicar dois numeros
+Alggoritimo Multiplicação;
+//Declaração das varáveis
+Var
+    n1: real;
+    n2: real;
+    m: real;
+//Entrada de dados
+Escreva ("Digite dois numeros: ")
+Leia n1, n2
+//Efetiva multiplicação dos numeros
+m <- n1 * n2
+//Saída de dados
+Escreval ("Multiplicação = ", m)
+//Fim 
+Fim_Logaritimo

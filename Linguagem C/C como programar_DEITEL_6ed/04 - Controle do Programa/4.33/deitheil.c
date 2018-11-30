@@ -1,0 +1,1 @@
+/*Escreva um programa que imprima uma tabela de números binários, octais e hexadecimais equivalentes aos números decimais no intervalo de 1 a 256. Se você não estiver familiarizado com esses sistemas de numeração, leia primeiro o Apêndice D se é seu desejo tentar fazer este exercício.*/

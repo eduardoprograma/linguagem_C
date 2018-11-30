@@ -1,0 +1,4 @@
+/*Os computadores estão desempenhando um papel cada vez maior em educação. Escreva um programa que ajudará os alunos da escola do primeiro grau a aprender a multiplicar. Use rand para produzir dois inteiros positivos de um dígito. O programa deve então imprimir uma pergunta do tipo 
+Quanto e 6 vezes 7? 
+O aluno deve digitar a resposta. Seu programa deve examinar a resposta do aluno. Se ela estiver correta, o programa deve imprimir "Muito bem!" e fazer outra
+pergunta de multiplicação. Se a resposta estiver errada, o programa deve imprimir "Nao. Tente novamente, por favor. " e então deixar que o aluno fique tentando acertar a mesma pergunta repetidamente até por fim conseguir.*/

@@ -1,0 +1,1 @@
+/*(Encontrar o valor mínimo de um array) Escreva uma função recursiva miniRecursivo que tome um array inteiro e o tamanho do array como argumentos e retorne o menor elemento do array. A função deve parar o processamento e retornar quando receber um array de 1 elemento.*/

@@ -1,0 +1,1 @@
+/*Faça um função que leia um número não determinado de valores positivos e retorne a média aritmética dos mesmos.*/

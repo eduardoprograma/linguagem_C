@@ -1,0 +1,1 @@
+/*Escreva um programa que some uma seqüência de inteiros. Admita que o primeiro inteiro lido com scanf especifica o número de valores que ainda devem ser fornecidos. Seu programa deve ler apenas um valor cada vez que scanf for executado. Uma seqüência típica de entrada poderia ser 5 100 200 300 400 500 onde o 5 indica que os valores subseqüentes 5 devem ser somados.*/

@@ -1,0 +1,1 @@
+/*Use as funções de comparação de strings analisadas na Seção 8.6 e as técnicas de classificar arrays desenvolvidas no Capítulo 6 para escrever um programa que coloque uma lista de strings em ordem alfabética. Use os nomes de 10 ou 15 cidades de sua região como dados para seu programa.*/

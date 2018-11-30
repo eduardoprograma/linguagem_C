@@ -1,0 +1,1 @@
+/*(Programação em Linguagem de Máquina) Vamos criar um computador a que chamaremos Simpletron. Como o nome já diz, ele é um equipamento simples, mas também, como veremos em breve, poderoso. O Simpletron executa programas escritos apenas na linguagem que entende diretamente, isto é, a Linguagem de Máquina Simpletron, ou, abreviadamente, LMS.*/

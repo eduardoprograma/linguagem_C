@@ -1,0 +1,1 @@
+/*Faça uma que receba um vetor de 15 números inteiros , por parametro, e retorne a quantidade de valores pares em X.*/

@@ -1,0 +1,6 @@
+/*Responda a cada uma das seguintes perguntas.
+a) O que significa escolher números "aleatoriamente"? 
+b) Por que a função rand é útil para simular jogos de azar? 
+c) Por que randomizar um programa usando srand? Sob que circunstâncias não é desejável randomizar? 
+d) Por que é necessário ajustar e dimensionar a escala dos valores produzidos por rand? 
+e) Por que a simulação computadorizada de situações do mundo real é uma técnica útil?*/

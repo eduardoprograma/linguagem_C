@@ -1,0 +1,1 @@
+/*Escreva um programa que una duas listas ordenadas de inteiros em uma única lista ordenada. A função unir deve receber ponteiros para o primeiro nó de cada uma das listas a serem unidas e deve retornar um ponteiro para o primeiro nó da lista resultante.*/

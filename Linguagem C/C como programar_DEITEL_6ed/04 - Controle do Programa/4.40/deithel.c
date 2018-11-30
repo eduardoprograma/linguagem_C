@@ -1,0 +1,2 @@
+/*Escreva um programa que imprima o seguinte losango. Você pode usar instruções printf que imprimam tanto um único asterisco como um único espaço em branco. Maximize seu uso de repetições (com estruturas for aninhadas) e minimize o número de instruções printf.
+pagina 184.*/

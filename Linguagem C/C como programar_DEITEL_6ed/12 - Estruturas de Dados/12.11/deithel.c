@@ -1,0 +1,1 @@
+/*Escreva um programa que use uma pilha para determinar se uma string é um palíndromo (i.e., a string é soletrada identicamente nos sentidos normal e inverso). O programa deve ignorar espaços e pontuação.*/

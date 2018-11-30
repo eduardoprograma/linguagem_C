@@ -1,0 +1,1 @@
+/*(Gerando Labirintos Aleatoriamente) Escreva uma função geradorLabirinto que tome um array 12-por-12 de caracteres como argumento e produza aleatoriamente um labirinto. A função também deve fornecer os locais de partida e de saída do labirinto. Experimente sua função travessiaLabirinto do Exercício 7.25 usando vários labirintos gerados aleatoriamente.*/

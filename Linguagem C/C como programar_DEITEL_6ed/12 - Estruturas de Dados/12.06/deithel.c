@@ -1,0 +1,1 @@
+/*Escreva um programa que concatene duas listas encadeadas de caracteres. O programa deve incluir a função concatenar que utilize ponteiros para ambas as listas como argumentos e concatene a segunda lista com a primeira.*/

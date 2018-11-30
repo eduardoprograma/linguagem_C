@@ -1,0 +1,3 @@
+Passo 1 - Receber os números que serão multiplicados.
+Passo 2 - Multiplicar os números.
+Passo 3 - Mostrar o resultado obtido na multiplicação.

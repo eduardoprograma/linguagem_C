@@ -1,0 +1,1 @@
+/*Escreva um programa que leia uma série de strings e imprima apenas as strings que terminarem com as letras*/

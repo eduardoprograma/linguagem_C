@@ -1,0 +1,1 @@
+/*Escreva um programa que receba uma linha de texto e use uma pilha para imprimir a linha invertida.*/

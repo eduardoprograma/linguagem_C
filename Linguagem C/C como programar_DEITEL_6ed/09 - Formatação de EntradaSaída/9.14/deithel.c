@@ -1,0 +1,1 @@
+/*Escreva um programa para testar todas as seqüências de escape da Fig. 9.16. Para as seqüências de escape que movem o cursor, imprima um caractere antes e depois de imprimir a seqüência de modo que fique claro para onde o cursor se moveu.*/
