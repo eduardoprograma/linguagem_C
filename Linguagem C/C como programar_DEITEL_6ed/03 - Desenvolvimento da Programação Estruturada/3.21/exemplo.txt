@@ -1,0 +1,13 @@
+Entre com o numero de horas trabalhadas (-1 para finalizar): 39 
+Entre com o valor da hora normal do trabalhador C$00.00): 10.00 
+Salário: $390.00
+
+Entre com o numero de horas trabalhadas (-1 para finalizar): 40 
+Entre com o valor da hora normal do trabalhador ($00.00): 10.00 
+Salário: $400.00
+
+Entre com o numero de horas trabalhadas (-1 para finalizar): 41 
+Entre com o valor da hora normal do trabalhador ($00.00): 10.00 
+Salário: 415.00
+
+Entre com o numero de horas trabalhadas (-1 para finalizar): -1
