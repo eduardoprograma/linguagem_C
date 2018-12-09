@@ -1,0 +1,24 @@
+Entre com o numero da conta (-1 para finalizar): 100 
+Entre com o saldo inicial: 5394.78 
+Entre com o total de cobranças: 1000.00 
+Entre com o total de créditos: 500.00 
+Entre com o limite de credito: 5500.00 
+
+/*Saída de dados*/
+Conta: 100 
+Limite de credito: 5500.00 
+Saldo: 5894.78 
+Limite de Credito Excedido.
+
+Entre com o numero da conta (-1 para finalizar): 200 
+Entre com o saldo inicial: 1000.00 
+Entre com o total de cobranças: 123.45 
+Entre com o total de créditos: 321.00 
+Entre com o limite de credito: 1500.00
+
+Entre com o numero da conta (-1 para finalizar): 300 
+Entre com o saldo inicial: 500.00 
+Entre com o total de cobranças: 274.73 
+Entre com o total de créditos: 100.00 
+Entre com o limite de credito: 800.00 
+Entre com o numero da conta (-1 para finalizar): -1
