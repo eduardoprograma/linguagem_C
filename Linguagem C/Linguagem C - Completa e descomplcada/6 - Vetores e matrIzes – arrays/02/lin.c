@@ -1,0 +1,1 @@
+/* Crie um programa que leia do teclado seis valores inteiros e em seguida mostre na tela os valores lidos na ordem inversa. */

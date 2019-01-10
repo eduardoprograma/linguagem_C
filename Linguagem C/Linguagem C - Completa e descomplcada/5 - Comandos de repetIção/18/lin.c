@@ -5,7 +5,7 @@
 int main(void)
 {
     /* declaração das variáveis */
-    int n, primo, i;
+    int n, primo = 0, i;
     int divn = 0;
 
     /* entrada de dados */
@@ -18,27 +18,24 @@ int main(void)
         for(i = 1; i <= n; i++)
         {
             divn = n % i;
-            if(divn == 1 || divn == 2)
+            if(divn == 0)
             {
                 primo++;
             }
-            else
-            {
-                primo++;
-            }
-            printf("%d\n", divn);
+            //printf("%d, %d\n", divn, primo);  //Teste
         }
-        if(divn == 2)
+        if(primo <= 2)
         {
-            printf("Este numero e primo.\n");
+            printf("\nEste numero e primo.\n\n");
         }
         else
         {
-            printf("Este numero nao e primo.\n");
+            printf("\nEste numero nao e primo.\n\n");
         }
         printf("Digite um numero inteiro para sabermos se este e primo(-1 para encerrar): ");
         scanf("%d", &n);
         divn = 0;
+        primo = 0;
     }
     return 0;
 }
