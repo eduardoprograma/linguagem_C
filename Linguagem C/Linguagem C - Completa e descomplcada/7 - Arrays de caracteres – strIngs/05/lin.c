@@ -9,19 +9,18 @@ int main()
     char str[100];
     char str1[100];
     char C;
-    int i, j = 0;
+    int i, j = 0, tam = 0;
 
     /* entrada de dados */
     printf("Digite uma palavra: ");
     gets(str);
 
     /* saida de dados */
-    for(i = strlen(str); i >= 0; i--)
+    tam =strlen(str);
+    for(i = tam - 1; i >= 0; i--)
     {
-        C = str[i];
-        str1[j] = C;
+        str1[j] = str[i];
         j++;
-        printf("%c", str1);
     }
     strcpy(str, str1);
     printf("%s", str);
