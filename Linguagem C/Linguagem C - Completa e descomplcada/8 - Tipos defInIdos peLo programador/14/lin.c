@@ -1,0 +1,1 @@
+/* Crie uma enumeração representando os itens de uma lista de compras. Agora, escreva um programa que leia um valor inteiro do teclado e exiba o nome do item comprado e o seu preço. */
