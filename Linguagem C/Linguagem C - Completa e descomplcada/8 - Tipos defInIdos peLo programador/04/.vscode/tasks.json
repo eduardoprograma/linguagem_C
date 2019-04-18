@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "helloWord.c"
+                "-g", "lin.c"
             ],
             "group":{
                 "kind": "build",

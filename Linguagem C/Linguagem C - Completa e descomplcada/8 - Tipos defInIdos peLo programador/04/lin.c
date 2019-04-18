@@ -42,9 +42,9 @@ int main()
         printf("\n");
     }
     printf("\n\n");
-    printf("Area = \n\n", retang.area);
-    printf("Comprimento Diagonal = \n\n", retang.comprimento_Diagonal);
-    printf("Perimentro = \n", retang.perimetro);
+    printf("Area = %.2f\n\n", retang.area);
+    printf("Comprimento Diagonal = %.2f\n\n", retang.comprimento_Diagonal);
+    printf("Perimentro = %.2f\n", retang.perimetro);
 
     return 0;
 }
