@@ -7,7 +7,7 @@
     /* Estrutura de dados */
     struct aluno
     {
-        unsigned char matricula_aluno;
+        unsigned int matricula_aluno;
         char nome_aluno[60];
         float nota_1;
         float nota_2;
@@ -20,22 +20,25 @@
     {
         int i, j;
         int alun = 0;
+        float media_1 = 0, media_2 = 0;
         struct aluno aluno_n[5];
 
         /* Entrada de dados */
         for (i = 0; i < 5; i++)
         {
+            aluno_n[i].matricula_aluno = 0;
             printf("Digite o numero da matricula do aluno: ");
-            scanf("%s", &aluno_n[i].matricula_aluno);
-            printf("Digite o nome do aluno: ");
+            scanf("%i", &aluno_n[i].matricula_aluno);
+            printf("Digite o nome do aluno               : ");
             fflush(stdin);
             fgets(aluno_n[i].nome_aluno, 60, stdin);
-            printf("Digite a primeira nota do aluno: ");
+            printf("Digite a primeira nota do aluno      : ");
             scanf("%f", &aluno_n[i].nota_1);
-            printf("Digite a segunda nota do aluno: ");
+            printf("Digite a segunda nota do aluno       : ");
             scanf("%f", &aluno_n[i].nota_2);
-            printf("Digite a terceira nota do aluno: ");
+            printf("Digite a terceira nota do aluno      : ");
             scanf("%f", &aluno_n[i].nota_3);
+            printf("\n\n");
         }
         
         /* Calculo das médias */
@@ -47,12 +50,10 @@
         /* Comparando as medias */
         for(i = 0; i < 5; i++)
         {
-            for(j = 0; j < 5; j++)
+            if(media_1 <= aluno_n[i].media)
             {
-                if(aluno_n[i].media > aluno_n[j].media)
-                {
-                    alun = i;
-                }
+                alun = i;
+                media_1 = aluno_n[i].media;
             }
         }
 
