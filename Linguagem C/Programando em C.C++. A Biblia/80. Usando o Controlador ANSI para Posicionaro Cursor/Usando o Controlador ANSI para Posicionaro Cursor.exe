@@ -1,0 +1,16 @@
+Como você aprendeu, o controlador ANSI suporta as seqüências ANSI que, por sua vez, lhe permitem limpar a tela e exibir saída em cores. Al m disso, o controlador ANSI oferece seqüências de escape que lhe permitem posicionar o cursor para especificar as posições de linha e de coluna, que, por sua vez, lhe permitem exibir sua saída em posições específicas na tela. A Tabela 80 mostra as seqüências de escape para o posicionamento do cursor.
+
+Tabela 80 Seqüências de escape de posicionamento do cursor do controlador ansi que você pode usar em seus programas.
+
+Seqüência de Escape             Função                                  Exemplo
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+Esc[x;yH                        Posiciona o cursor na linha x, coluna y                         Esc[10;25H
+Esc[xA                          Move o cursor x linhas para cima                                Esc[la
+Esc[xB                          Move o cursor x linhas para baixo                               Esc[2b
+Esc[yC                          Move o cursor y colunas para a direita                          Esc[10c
+Esc[yD                          Move o cursor y colunas para a esquerda                         Esc[10d
+Esc[S                           Armazena a posiç o atual do cursor                              Esc[S
+Esc[U                           Restaura a posiç o do cursor                                    Esc[U
+Esc[2j                          Limpa a tela, movendo o cursor para o canto superior esquerdo   Esc[2j
+Esc[K                           Limpa at o final da linha atual                                 Esc[K
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨

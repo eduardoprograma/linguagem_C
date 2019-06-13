@@ -1,0 +1,8 @@
+Uma das operações mais comuns que cada um dos seus programas executar quando iniciar sua execuç o limpar a teia de vídeo. Infelizmente, a biblioteca de execuç o de C n o fornece uma funç o que limpa a tela. Para limpar a tela, use o controlador ANSI descrito na Dica 77, e, depois, chame a seguinte seqüência de escape para limpar sua tela de vídeo:
+
+Esc[2j 
+
+Um modo f cil de chamar a seqüência de escape usar a representaç o octal do caractere escape (\033).
+Para imprimir o caractere escape, faça como mostrado aqui: 
+
+printf("\033[2J");

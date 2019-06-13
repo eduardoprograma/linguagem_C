@@ -1,0 +1,7 @@
+Várias dicas apresentadas neste livro utilizam muito as capacidades de formataç o de prin tf Embora printfofereça especificadores de formato que você usa para controlar o número de dígitos mostrados, para exibir saída em octal ou hexadecimal, ou para justificar texto à direita ou à esquerda, printf n o oferece outros especificadores de formato. printf h o fornece especificadores de formato que lhe permitem posicionar o cursor em uma linha e coluna específicas, limpar a tela ou exibir saída em cores. No entanto, dependendo do sistema operacional que estiver usando, você pode provavelmente efetuar essas operações usando o controlador de dispositivo ANSI. 0 controlador ANSI suporta diferentes seqüências de escape que o instruem a usar cores específicas, a posicionar o cursor e at a limpar a tela. Os programadores chamam esses comandos de formataç o de seqüências de escape, pois elas iniciam com o caractere ASCII Escape (o valor 27). Se você esdver usando o DOS, instale o controlador de dispositivo colocando uma entrada tal como a seguinte dentro do seu arquivo config.sys (e depois reinicialize o computador):
+
+DEVICE=C:\DOS\ANSI.SYS 
+
+Após você instalar o controlador ANSI, seus programas podem escrever seqüências de Escape usando printf.
+
+Nota: Se você est rodando o Windows 95 na mesma m quina que compila programas, adicionar o controlador ANSI o seu arquivo config.sys do sistema, n o afetar as opera ões no Windows 95.

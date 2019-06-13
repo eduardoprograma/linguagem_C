@@ -1,0 +1,56 @@
+fprintf() - Escrevendo textos (strings) em arquivos
+***************************************************
+
+Embora interessante, e importante, a escritura de caracteres em arquivos, ela é um pouco limitada.
+Afinal, é incômodo escrever caractere por caractere.
+Para isso, existe a função fprintf, que nos permite escrever strings inteiras em arquivos.
+Sua sintaxe simplificada é:
+
+int fprintf(FILE *arq, char string[])
+
+Ou seja, recebe o local onde deve direcionar a saída (para um arquivo, apontado pelo ponteiro arq do tipo FILE), e a string que devemos adicionar em tal arquivo.
+Essa função retorna EOF em caso de erro.
+Exemplo de código - Armazenando notas, calculando a média e escrevendo no arquivo
+Escreva um programa em C que peça 3 notas de um aluno (Matemática, Física e Química), e salve esses dados em um arquivo chamado "notas.txt", que deve ter, ao final, a média das três disciplinas.
+Vamos definir a nossa url como "notas.txt" e criar duas variáveis do tipo float, a "nota" (que vai armazenar a nota de cada matéria) e a "media" (que vai somar todas as notas, depois se dividir por 3 para ter a média).
+A cada vez que pedimos uma nota, adicionamos uma linha de informação ao nosso arquivo, e ao final escrevemos a média.
+O interessante é que nossa saída de dados é o arquivo, e não mais a tela. Assim, embora exista saída, nós não vemos na tela, só no arquivo.
+
+Veja como ficou nosso código:
+
+
+#include <stdio.h>
+
+int main(void)
+{
+ char url[]="notas.txt";
+ float nota,
+       media=0.0;
+ FILE *arq;
+ 
+ arq = fopen(url, "w");
+ if(arq == NULL)
+   printf("Erro, nao foi possivel abrir o arquivo\n");
+ else{
+  printf("Nota de Matematica: ");
+  scanf("%f", &nota);
+  fprintf(arq, "Matematica: %.2f\n", nota);
+  media+=nota;
+  
+  printf("Nota de Fisica: ");
+  scanf("%f", &nota);
+  fprintf(arq, "Fisica: %.2f\n", nota);
+  media+=nota;
+  
+  printf("Nota de Quimica: ");
+  scanf("%f", &nota);
+  fprintf(arq, "Quimica: %.2f\n", nota);
+  media+=nota;
+  
+  media /= 3;
+  fprintf(arq, "Media final: %.2f\n", media);
+ }
+ fclose(arq);
+ 
+ return 0;
+}

@@ -1,0 +1,34 @@
+Várias dicas apresentadas at aqui neste livro utilizam muito a função printfpzra. exibir saída. Embora printf ofereça especificadores de formato poderosos, no oferece um modo para você exibir texto em cores. No entanto, se estiver usando o controlador ANSI, como discutido na Dica 77, você pode usar as seqüências de escape listadas na Tabela 79 para exibir a saída em cores.
+Tabela 79 Seqüências ANSI que você pode usar para definir as cores da tela.
+
+Seqüência de Escape                                     Cor
+***************************************************************************************
+Esc[30m                                                 Cor do primeiro plano preta 
+Esc[31m                                                 Cor do primeiro plano vermelha 
+Esc[32m                                                 Cor do primeiro plano verde 
+Esc[33m                                                 Cor do primeiro plano laranja 
+Esc[34m                                                 Cor do primeiro plano azul 
+Esc[35m                                                 Cor do primeiro plano magenta 
+Esc[36m                                                 Cor do primeiro plano ciano 
+Esc[37m                                                 Cor do primeiro plano branca 
+Esc[40m                                                 Cor de fundo preta 
+Esc[41m                                                 Cor de fundo vermelha 
+Esc[42m                                                 Cor de fundo verde 
+Esc[43m                                                 Cor de fundo laranja 
+Esc[44m                                                 Cor de fundo azul 
+Esc[45m                                                 Cor de fundo magenta 
+Esc[46m                                                 Cor de fundo ciano 
+Esc[47m                                                 Cor de fundo branca
+***************************************************************************************
+O comando printf a seguir seleciona a cor de fundo azul:
+
+                    printf("\033[44m"); 
+
+Similarmente, o comando printf a seguir seleciona texto vermelho em um fundo branco:
+
+                    printf("\033[47m\033[31m");
+
+No exemplo anterior, prinlf escreve duas seqüências de escape. O controlador ANSI lhe permite especificar
+as cores da tela, separando-as com ponto-e-vírgula, como mostrado aqui: 
+
+                    printf("\033[47;31m");
