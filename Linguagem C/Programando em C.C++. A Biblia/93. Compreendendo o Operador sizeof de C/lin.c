@@ -2,7 +2,7 @@
 //Escrito por: Eduardo Felizardo Cândido
 //Data de criação: 14/06/2019
 
-/* Quando seus programas declaram uma vari vel, o compilador C aloca memória para armazenar o valor da vari vel. Ao escrever programas que efetuem operações de entrada/sa da ou aloquem memória para as listas dinâmicas, ver que conveniente saber a quantidade de memória que seu programa alocou para uma vari vel específica. O operador sizeof de C retorna o número de bytes que uma vari vel ou tipo requer. O programa a seguir, sizeof c, ilustra o uso do operador sizeof: */
+/* Quando seus programas declaram uma variável, o compilador C aloca memória para armazenar o valor da variável. Ao escrever programas que efetuem operações de entrada/saída ou aloquem memória para as listas dinâmicas, ver que conveniente saber a quantidade de memória que seu programa alocou para uma variável específica. O operador sizeof de C retorna o número de bytes que uma vari vel ou tipo requer. O programa a seguir, sizeof c, ilustra o uso do operador sizeof: */
 
 #include<stdio.h>
 

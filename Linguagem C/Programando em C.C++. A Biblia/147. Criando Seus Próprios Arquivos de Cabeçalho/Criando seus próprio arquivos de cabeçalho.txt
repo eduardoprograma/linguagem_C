@@ -1,0 +1,5 @@
+Como você sabe, o compilador C fornece diferentes arquivos de cabeçalho que contêm macros, constantes e protótipos de funções relacionados. À medida que aumentar o número de programas que você criar, será possível descobrir que muitos dos seus programas usam as mesmas constantes e macros. Em vez de digitar repetidamente essas macros e constantes em seus programas, você poderá considerar criar seu próprio arquivo de cabeçalho e colocar no arquivo as macros e constantes correspondentes. Assumindo que você crie um arquivo de cabeçalho chamado min_defi.h, poderá incluir o arquivo no início de seu programa usando a diretiva Mnclude do pré-processador, como mostrado aqui:
+
+                            #include "min_defs.h" 
+
+Quando você incluir suas macros e constantes em um arquivo de cabeçalho desse modo, poderá rapidamente modificar vários programas editando o arquivo de cabeçalho, e, depois, recompilando os programas que incluem o arquivo.
