@@ -1,0 +1,11 @@
+Na Dica 180 vimos que vários compiladores fornecem funções que suportam strings que os ponteiros far referenciam. Se seu compilador não fornece essas funções, você mesmo pode criar as funções de string far modificando as funções nesta seção. Como um exemplo, a seguinte função, fitreql, ilustra a implementação baseada em ponteiros far de streql (em vez de a implementação padrão baseada em ponteiros locais):
+
+int fstreql (char far *strl, char far *str2) 
+{
+    while ((*strl == *str2) && (*strl)) 
+    {
+        strl++;
+        str2++;
+    }
+    return((*strl == NULL) && (*str2 == NULL)); 
+}

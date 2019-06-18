@@ -1,0 +1,43 @@
+// Programa: lin.c 
+// Escrito por: Eduardo Felizardo Cândido
+// Data de criação:  18/06/2019
+// Propósito: exercitar o livro C como programar - capitulo 2
+
+2.7 Identifique e corrija os erros cometidos em cada uma das instruções. (Nota: pode haver mais de um erro por instrução.)
+
+a) scanf( “d”, valor ); 
+R: scanf("%d", &Valor);
+
+b) printf( “O produto de %d e %d é %d”\n, x, y );
+R: printf("O produto de %d e %d é %d\n", x, y, x * y);
+
+c) primeiroNúmero + segundoNúmero = somaDosNúmeros
+R: somaDosNúmeros = primeiroNúmero + segundoNúmero;
+
+d) if ( número => maior ) maior == número;
+R: if(numero >= maior)
+   {
+       maior == numero;
+   } 
+
+e) */Programa para determinar o maior dentre três inteiros /*
+R: /*Programa para determinar o maior dentre três inteiros*/
+
+f) Scanf( “%d”, umInteiro ); 
+R: scanf("%d", &umInteiro);
+
+g) printf( “Módulo de %d dividido por %d é\n”, x, y, x % y );
+R: printf("“Módulo de %d dividido por %d é %d\n", x, y, x % y);
+
+h) if ( x = y ); 
+        printf( %d é igual a %d\n”, x, y );
+R: if(x = y)
+   {
+       printf("%d é igual a %d\n", x, y);
+   } 
+
+i) print( “A soma é %d\n,” x + y ); 
+R: printf("A soma é %d\n", x + y);
+
+j) Printf( “O valor que você digitou é: %d\n, &valor );
+R: printf("O valor que você digitou é: %d\n", valor);

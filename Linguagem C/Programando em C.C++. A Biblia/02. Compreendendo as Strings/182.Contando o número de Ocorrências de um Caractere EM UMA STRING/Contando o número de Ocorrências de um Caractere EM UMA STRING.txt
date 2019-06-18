@@ -1,0 +1,11 @@
+À medida que seus programas forem trabalhando com strings, algumas vezes você poderá querer saber o número de vezes que um caractere ocorre dentro de uma string. Para lhe ajudar a contar o número de vezes que um caractere ocorre dentro de uma string, seus programas podem usar a função charcnt, como mostrado aqui:
+
+int charcnt(const char *string, int letra) 
+{
+    int conta = 0;
+    while (*string) if (*string == letra)
+    {
+        conta++;
+    }
+    return(conta); 
+}

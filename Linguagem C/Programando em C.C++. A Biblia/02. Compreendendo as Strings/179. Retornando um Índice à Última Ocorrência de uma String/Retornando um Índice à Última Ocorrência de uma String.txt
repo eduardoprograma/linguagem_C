@@ -1,0 +1,22 @@
+Na Dica 178 você viu como usar a função strrchr para obter um ponteiro para a última ocorrência de um caractere dentro de uma string. No entanto, se você tratar uma string como uma matriz, e não como um ponteiro, poderá obter um índice para o caractere desejado subtraindo o endereço inicial da string do ponteiro que strrchr retornará:
+
+char_ptr = strrchr(string, caractere); 
+indice = char_ptr - string; 
+
+Se strrchr não encontrar o caractere na string, o valor que strrchr atribuirá ao índice será igual ao tamanho da string. Além de usar strrchr, você poderá usar a função strr_index, como mostrado aqui: 
+
+int strr_index(const char *string, int letra) 
+{
+    char *original = string; 
+    char *ptr = NULL;
+    
+    while (*string) 
+    {
+        if (*string == letra)
+        {
+            ptr = string;
+        }
+        string++; 
+    } 
+    return((*ptr) ? ptr-original: string-original); 
+}

@@ -1,0 +1,7 @@
+Como será discutido na seção Gerenciamento da Memória no Windows mais à frente, os ponteiros far permitem que os programas do DOS acessem dados que residem fora do segmento atual de 64Kb. Quando você estiver trabalhando com ponteiros far, precisará também usar funções que esperam que seus parâmetros sejam ponteiros far. Infelizmente, nenhuma das rotinas de manipulação de strings que esta seção apresenta prevê ponteiros far para as strings. Passar um ponteiro far para uma das funções de manipulação de string que esta seção detalha provocará um erro. No entanto, para suportar os ponteiros far, muitos compiladores fornecem implementações de ponteiros far dessas funções. Por exemplo, para determinar o tamanho de uma string que um ponteiro far referencia, você poderia usar a função _fstrlen, como mostrado aqui:
+
+
+#include <string.h> 
+size_t _fstrlen(const char *string) 
+
+Para determinar quais funções far seu compilador suporta, consulte a documentação do compilador.

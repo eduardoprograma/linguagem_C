@@ -1,0 +1,15 @@
+2.8 Preencha os espaços nas seguintes sentenças:
+a) ______ são usados para documentar um programa e melhorar sua legibilidade.
+R:
+
+b) A função usada para exibir informações na tela é ______.
+R: 
+
+c) Uma instrução C responsável pela tomada de decisão é ______.
+R: 
+
+d) Os cálculos normalmente são realizados por instruções ______.
+R: 
+
+e) A função ______ lê valores do teclado.
+R: 

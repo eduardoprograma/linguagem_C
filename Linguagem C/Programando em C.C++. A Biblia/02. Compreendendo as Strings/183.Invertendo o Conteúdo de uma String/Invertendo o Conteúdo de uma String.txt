@@ -1,0 +1,25 @@
+À medida que seus programas efetuarem diferentes operações, algumas vezes você poderá precisar inverter a ordem de caracteres dentro de uma string. Para simplificar tais operações, a maioria dos compiladores fornece uma função strrev, como mostrado aqui:
+
+#include <string.h> 
+char *strrev(char *string); 
+
+Para compreender melhor a função strrev, considere a seguinte implementação:
+
+char *strrev(char *string) 
+{
+    char *original = string; 
+    char *frente = string; 
+    char temp;
+
+    while (*string) 
+    {
+        string++;
+    }
+    while (frente < string) 
+    {
+        temp = *(--string); 
+        *string = *frente; 
+        *frente++ = temp;
+    }
+    return(original); 
+}

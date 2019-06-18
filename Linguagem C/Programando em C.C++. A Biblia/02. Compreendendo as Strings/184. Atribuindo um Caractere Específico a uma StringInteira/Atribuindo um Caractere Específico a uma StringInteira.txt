@@ -1,0 +1,19 @@
+À medida que seus programas forem trabalhando com strings, é possível que às vezes você irá querer definir todos os caracteres em uma string com um caractere específico. Por exemplo, algumas vezes você quer sobrescrever o valor atual de uma string antes de passar a string para uma função. Para simplificar a sobrescrita de todo caractere dentro de uma string, a maioria dos compiladores C fornece uma função strset, que atribui a cada caractere na string um caractere especificado, como mostrado aqui:
+
+#include <string.h> 
+char *strset(char *string, int caractere); 
+
+A função strset atribui o caractere especificado para cada posição na string até encontrar o caractere NULL.
+Para compreender melhor a função strset, considere a seguinte implementação: 
+
+char *strset(char *string, int letra) 
+{
+    char *original = string;
+    while (*string) 
+    {
+        *string++ = letra;
+    }
+    return(original); 
+} 
+
+Como você pode ver, a função percorre a string atribuindo o caractere especificado até que a função encontre o caractere NULL.
