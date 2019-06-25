@@ -15,12 +15,9 @@ int main(void)
     int x, y, z;
 
     /*Entrada de dados*/
-    printf("Digite um valor inteiro para x: ");
-    scanf("%d", &x);
-    printf("Digite um valor inteiro para y: ");
-    scanf("%d", &y);
-    printf("Digite um valor inteiro para z: ");
-    scanf("%d", &z);
+    printf("Digite 3 valores inteiro: ");
+    scanf("%d%d%d", &x, &y, &z);
+    
 
     /*Bloco de comandos*/
     printf("A soma %c %d\n", 130, x + y + z);                 //Valor da soma
