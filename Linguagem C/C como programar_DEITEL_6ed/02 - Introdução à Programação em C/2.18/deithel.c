@@ -6,7 +6,8 @@
 int main(void)
 {
     /*Declaração de variáveis*/
-    int x, y;
+    int x = 0, y = 0;
+    int num_maior = 0;
 
     /*Entrada de dados*/
     printf("Digite um valor para x: ");
@@ -15,19 +16,16 @@ int main(void)
     scanf("%d", &y);
 
     /*Bloco de comando*/
+
     if(x > y)
     {
-        printf("%d %c maior", x, 130);
+        num_maior = x;
     }
-
-    if(x < y)
+    else 
     {
-        printf("%d %c maior", y, 130);
+        num_maior = y;
     }
-    else if (y == x)
-    {
-        printf("Estes n%cmeros s%co iguais", 163, 198);
-    }
+    printf("%d %c maior", num_maior, 130);
     printf("\n");
     system("pause");
     return 0;

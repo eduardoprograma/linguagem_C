@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define SOMA (x + y)
+#define PRODUTO (x * y)
+#define DIFERENCA (x - y)
+#define QUOCIENTE (x / y)
+#define MODULO (x % y)
+
 /*Inicio do código*/
 int main(void)
 {
@@ -16,10 +22,10 @@ int main(void)
     scanf("%d", &y);
 
     /*Bloco de comandos*/
-    printf("Soma: %d\n", x + y);
-    printf("Produto: %d\n", x * y);
-    printf("Diferen%ca: %d\n", 135, x - y);
-    printf("Quociente: %d\n", x / y);
-    printf("Resto da Divis%co: %d\n", 198, x % y);
+    printf("Soma: %d\n", SOMA);
+    printf("Produto: %d\n", PRODUTO);
+    printf("Diferen%ca: %d\n", 135, DIFERENCA);
+    printf("Quociente: %d\n", QUOCIENTE);
+    printf("Resto da Divis%co: %d\n", 198, MODULO);
 }
 /*fim do código*/
