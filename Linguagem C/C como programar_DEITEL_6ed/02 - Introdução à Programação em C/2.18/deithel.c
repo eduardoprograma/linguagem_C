@@ -21,11 +21,17 @@ int main(void)
     {
         num_maior = x;
     }
+    if(x == y)
+    {
+        goto iguais;
+    }
     else 
     {
         num_maior = y;
     }
     printf("%d %c maior", num_maior, 130);
+    iguais:
+    printf("Estes numeros sao iguais.");
     printf("\n");
     system("pause");
     return 0;
