@@ -1,1 +1,0 @@
-/*Escreva um programa que insira, em ordem, 25 números inteiros aleatórios de 0 a 100 em uma lista encadeada. O programa deve calcular a soma dos elementos como um número inteiro e a média dos elementos como um número de ponto flutuante.*/

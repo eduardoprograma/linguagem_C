@@ -1,1 +1,0 @@
-/*Faça uma função que receba, por parâmetro, dois valores X e Z, calcule e retorne X^z (sem utilizar funções ou operadoores de potência prontos).*/

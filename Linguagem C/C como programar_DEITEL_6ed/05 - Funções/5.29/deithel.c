@@ -1,1 +1,0 @@
-/*O maior divisor comum (MDC) de dois inteiros é o maior inteiro que divide precisamente cada um dos dois números. Escreva uma função mãe que retorne o maior divisor comum de dois inteiros.*/

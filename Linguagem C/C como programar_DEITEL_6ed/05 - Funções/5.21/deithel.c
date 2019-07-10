@@ -1,1 +1,0 @@
-/*Use técnicas similares às descritas nos Exercícios 5.19 e 5.20 para produzir um programa que faça gráficos com uma grande variedade de formas.*/

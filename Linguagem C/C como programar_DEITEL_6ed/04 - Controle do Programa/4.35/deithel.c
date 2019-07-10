@@ -1,1 +1,0 @@
-/*Escreva um programa que receba como entrada o ano no intervalo de 1994 a 1999 e use o loop for para produzir um calendário condensado e impresso de uma forma organizada. Tome cuidado com os anos bissextos.*/

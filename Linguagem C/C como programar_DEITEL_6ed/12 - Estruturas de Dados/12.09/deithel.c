@@ -1,1 +1,0 @@
-/*Escreva um programa que crie uma lista encadeada de 10 caracteres e então crie uma cópia da lista na ordem inversa.*/

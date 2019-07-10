@@ -1,2 +1,0 @@
-/*Escreva um programa, baseado no programa da Fig. 12.19, que receba uma linha de texto, divida a sentença em palavras separadas, insira as palavras em uma árvore binaria e imprima os percursos inorder, preorder e postorder da árvore.
-Sugestão: Leia a linha de texto em um array. Use strtok para dividir o texto em palavras. Quando uma divisão (palavra) for encontrada, crie um novo nó para a árvore, atribua o ponteiro retornado por strtok ao membro string do novo nó e insira o nó na árvore.*/

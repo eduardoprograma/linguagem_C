@@ -1,1 +1,0 @@
-/*Escreva uma função que obtenha a hora como três argumentos inteiros (para horas, minutos e segundos) e retorne o número de segundos desde a última vez que o relógio "soou as horas". Use essa função para calcular o intervalo de tempo em segundos entre duas horas, ambas dentro de um ciclo de doze horas do relógio.*/

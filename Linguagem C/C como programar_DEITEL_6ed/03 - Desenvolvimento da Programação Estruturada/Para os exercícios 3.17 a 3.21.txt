@@ -1,5 +1,0 @@
-Para os Exercícios 3.17 a 3.21, realize cada um dos seguintes passos: 
-1. Leia a definição do problema. 
-2. Formule o algoritmo usando o pseudocódigo e o refinamento top-down em etapas. 
-3. Escreva um programa em C. 
-4. Teste, depure e execute o programa em C.

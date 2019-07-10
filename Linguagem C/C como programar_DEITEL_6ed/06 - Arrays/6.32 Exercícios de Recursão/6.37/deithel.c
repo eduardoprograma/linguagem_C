@@ -1,1 +1,0 @@
-/*Imprimir um Array) Escreva uma função recursiva imprimeArray que tome um array e seu tamanho. como argumentos, imprima o array e não retorne nada. A função deve parar o processamento e retornar quando receber um array de tamanho zero.*/

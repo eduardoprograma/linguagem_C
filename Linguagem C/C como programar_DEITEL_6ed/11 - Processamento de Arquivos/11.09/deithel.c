@@ -1,2 +1,0 @@
-/*Execute o programa do Exercício 11.7 usando os arquivos de dados de teste criados no
-Exercício 11.8. Use a listagem de programa da Seção 11.7 para imprimir um novo arquivo-mestre. Examine cuidadosamente os resultados.*/

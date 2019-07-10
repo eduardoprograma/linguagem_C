@@ -1,1 +1,0 @@
-/*Modifique a função exibeBits da Fig. 10.7 de forma que ela seja transportável entre sistemas usando inteiros de 2 bytes e sistemas de 4 bytes. Sugestão: Use o operador sizeof para determinar o tamanho de um inteiro em um determinado equipamento.*/

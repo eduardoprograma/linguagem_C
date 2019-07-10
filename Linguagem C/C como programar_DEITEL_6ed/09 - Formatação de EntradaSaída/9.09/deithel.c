@@ -1,1 +1,0 @@
-/*Escreva um programa que imprima os valores de ponteiros usando todos os especificadores de conversão de inteiros e a especificação de conversão %p. Que especificadores imprimem valores estranhos? Que especificadores causam erros? Em que formato a especificação de conversão %p exibe os endereços em seu sistema?*/

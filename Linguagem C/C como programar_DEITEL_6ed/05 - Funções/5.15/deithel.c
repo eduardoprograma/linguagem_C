@@ -1,2 +1,0 @@
-/*Defina uma função hipotenusa que calcule o comprimento da hipotenusa de um triângulo retângulo, ao serem fornecidos os catetos. Use essa função em um programa para determinar o comprimento da hipotenusa de cada um dos seguintes triângulos. A função deve utilizar dois argumentos do tipo double e retornar a hipotenusa com o tipo double.
-figura pagina 237.*/

@@ -1,1 +1,0 @@
-/*Faça uma funcção que recebaum valor inteiro e positivo, calcule e mostre o seu fatorial.*/

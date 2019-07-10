@@ -1,1 +1,0 @@
-/*Escreva um programa para imprimir os valores das constantes simbólicas predefinidas listadas na Fig. 13.1.*/

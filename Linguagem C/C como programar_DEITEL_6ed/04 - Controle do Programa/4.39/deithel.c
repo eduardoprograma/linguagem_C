@@ -1,1 +1,0 @@
-/*Descreva de uma maneira geral como você removeria as instruções break de uma estrutura switch e as substituiria por instruções estruturadas equivalentes. Use a técnica (talvez estranha) desenvolvida aqui para remover as instruções break do programa da Fig. 4.7.*/

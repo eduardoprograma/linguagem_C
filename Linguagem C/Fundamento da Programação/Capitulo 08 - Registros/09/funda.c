@@ -1,1 +1,0 @@
-/*Um funcionário recebe um salário fixo mais de 6% de comissão sobre suas vendas. Crie um algoritimo que leia o salário do funcionário, o valor total de suas vendas, calcule a comissão e o salário final. Mostre todos os valores calculados.*/

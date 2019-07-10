@@ -1,2 +1,0 @@
-O programa da Fig. 5.12 demonstra as características dos escopos com variáveis
-globais, variáveis locais automáticas e variáveis locais static. Uma variável global x é declarada e inicializada com o valor 1. Essa variável global é ignorada em qualquer bloco (ou função) que declare uma variável x. t main, a variável local x é declarada e inicializada com o valor 5.

@@ -1,1 +1,0 @@
-/*Escreva um programa que use a macro IMPRIME ARRAY para imprimir um array de inteiros. A macro deve receber como argumentos o array e o seu número de elementos.*/

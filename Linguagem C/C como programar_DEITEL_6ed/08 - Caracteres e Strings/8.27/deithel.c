@@ -1,1 +1,0 @@
-/*Escreva suas próprias versões das funções da Fig. 8.5 para converter strings em números.*/

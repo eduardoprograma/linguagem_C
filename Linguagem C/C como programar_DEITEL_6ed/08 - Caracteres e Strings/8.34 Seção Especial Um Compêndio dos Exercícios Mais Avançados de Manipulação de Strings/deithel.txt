@@ -1,3 +1,0 @@
-Seção Especial: Um Compêndio dos Exercícios Mais Avançados de Manipulação de Strings 
-
-Os exercícios anteriores estão voltados para textos e destinam-se a avaliar a compreensão que o leitor possuir a respeito dos conceitos fundamentais de manipulação de strings. Esta seção inclui um conjunto de problemas médios e avançados. O leitor deve achar que esses problemas são complexos, porém agradáveis. A dificuldade dos problemas pode variar consideravelmente. Alguns exigem uma ou duas horas para escrever e implementar o programa. Outros são úteis para tarefas práticas que podem exigir duas ou três semanas de estudos e implementação. Alguns são projetos escolares complexos.

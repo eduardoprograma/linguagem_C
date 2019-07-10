@@ -1,1 +1,0 @@
-/*Crie a união integer com membros char c, short s, int i e long 1. Escreva um programa que receba valores do tipo char, short, int e long e armazene os valores em variáveis de união do tipo union integer. Cada variável da união deve ser impressa como char, short, int e long. Os valores sempre são impressos corretamente?*/

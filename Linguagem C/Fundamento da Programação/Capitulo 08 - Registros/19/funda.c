@@ -1,3 +1,0 @@
-/*Uma empresa de eletrodomesticos esta realizando um sorteio de uma Ferrari F-50, do qual estão participando todos os que comprarem pelo menos cinco produtos de uma vez só, nas lojas autorizadas. Faça um programa que:
-    a)  leia os dados dos clientes como nome, data de nascimento, CPF, RG, cidade em que mora, endereço e a qualidade de eletrodomestico adquirido por este cliente. Deve-se incluir um campo para o numero de registro , que vai de 1 a 9999.
-    b)  Faça o sorteio entre clientes participantes. Somente  os clientes que compraram mais de cincoequipamentos devem participar. Será sorteado um número e o cliente que tiver o registro com esse número será o ganhador. O cliente sorteado só será o ganhador caso tenha comprado pelo menos  cinco equipamentos.*/

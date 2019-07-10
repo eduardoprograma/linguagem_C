@@ -1,1 +1,0 @@
-/*Escreva um programa que teste o máximo possível das funções da biblioteca matemática na Fig. 5.2. Experimente cada uma das funções fazendo com que seu programa imprima tabelas com os valores de retorno para vários valores de argumentos.*/

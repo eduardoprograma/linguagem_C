@@ -1,2 +1,0 @@
-/*Escreva uma função potencialnte (base, expoente) que retorne o valor de base^expoente 
-Por exemplo, potencialnt (3,4) =3 * 3 * 3 * 3. Admita que expoente é um inteiro positivo, diferente de zero, e base é um inteiro. A função potencialnt deve usar for para controlar o cálculo. Não use nenhuma das funções da biblioteca matemática.*/

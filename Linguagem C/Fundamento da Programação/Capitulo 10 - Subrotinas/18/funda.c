@@ -1,1 +1,0 @@
-/*Faça uma função que gere e mostre os dez primeiros primos acima de 100.*/

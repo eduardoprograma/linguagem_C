@@ -1,6 +1,0 @@
-/*(Percurso de árvore binaria por ordem de níveis) O programa da Fig. 12.19 ilustrou três métodos recursivos de percorrer uma árvore binaria — percursos inorder (in-ordem), preorder (pré-ordem) e postorder (pós-ordem). Este exercício apresenta o percurso por ordem de níveis de uma árvore binaria no qual os valores dos nós são impressos nível a nível, começando pelo nível do nó raiz. Os nós em cada nível são impressos da esquerda para a direita. O percurso por ordem de níveis não é um algoritmo recursivo. Ele usa a estrutura de dados em fila para controlar a saída dos nós. O algoritmo é o seguinte:
-    1) Insira o nó raiz na fila 
-    2) Enquanto houver nós na fila, Obtenha o próximo nó na fila Imprima o valor do nó Se o ponteiro para o filho da esquerda não for NULL Insira na fila o nó do filho da esquerda 
-    Se o ponteiro para o filho da direita não for NULL 
-    Insira na fila o nó do filho direito.
-Escreva a função ordemNiveis para realizar um percurso por ordem de níveis em uma árvore binaria. Modifique o programa da Fig. 12.19 para usar essa função. Compare a saída dessa função com as saídas dos outros algoritmos de percurso para ver se ela funcionou corretamente. (Nota: Você também precisará modificar e incorporar neste programa as funções de processamento de filas da Fig. 12.13.)*/

@@ -1,1 +1,0 @@
-/*Em algumas linguagens de programação, as strings são fornecidas entre aspas simples ou duplas. Escreva um programa que leia três strings suzy, "suzy" e 'suzy'. As aspas simples e duplas são ignoradas pelo C ou lidas como parte da string?*/

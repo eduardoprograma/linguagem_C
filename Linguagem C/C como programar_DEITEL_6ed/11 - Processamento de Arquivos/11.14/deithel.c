@@ -1,2 +1,0 @@
-/*Se você tem um dicionário computadorizado disponível, modifique o programa escrito no Exercício 11.13 para verificar as palavras no dicionário. Algumas combinações de sete letras criadas por esse
-programa consistem em duas ou mais palavras (o número de telefone 848-2236 produz "VIVABEM").*/

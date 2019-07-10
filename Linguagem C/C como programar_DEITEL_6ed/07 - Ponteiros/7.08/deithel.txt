@@ -1,3 +1,0 @@
-Diga se cada uma das sentenças seguintes é verdadeira ou falsa. Se falsa, explique por quê. 
-a) Dois ponteiros que apontam para arrays diferentes não podem ser comparados expressivamente. 
-b) Em face de o nome do array ser um ponteiro para o primeiro elemento do array, os nomes de arrays podem ser manipulados exatamente da mesma forma que os ponteiros.

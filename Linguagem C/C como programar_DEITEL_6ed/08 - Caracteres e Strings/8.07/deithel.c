@@ -1,1 +1,0 @@
-/*Escreva um programa que receba 4 strings que representem inteiros, converta as strings em inteiros, some os valores e imprima a soma dos 4 valores.*/

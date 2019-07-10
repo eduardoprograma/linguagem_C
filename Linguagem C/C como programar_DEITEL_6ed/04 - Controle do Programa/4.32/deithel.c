@@ -1,1 +1,0 @@
-/*Se você está familiarizado com numerais romanos, escreva um programa que imprima uma tabela de todos os números romanos equivalentes aos números decimais de 1 a 100.*/

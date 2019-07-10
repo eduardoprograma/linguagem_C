@@ -1,1 +1,0 @@
-/*Escreva um programa baseado no programa do Exercício 8.16 que receba várias linhas de texto e uma string de busca, e use a função strstr para determinar o total de ocorrências da string na linha de texto. Imprima o resultado.*/

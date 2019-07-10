@@ -1,1 +1,0 @@
-/*b) Escreva um programa que calcule o valor da constante matemática e usando a fórmula: e = 1 + 1/1! + 1/2!+ ...*/

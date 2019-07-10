@@ -1,1 +1,0 @@
-/*(Pesquisa Linear) Modifique o programa da Fig. 6.18 para usar uma função recursiva pesqLinear para realizar a pesquisa linear no array. A função deve receber um array inteiro e o tamanho do array como argumentos. Se a chave de busca (pesquisa) for encontrada, retorne o subscrito do array; caso contrário, retorne -1.*/

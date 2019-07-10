@@ -1,1 +1,0 @@
-/*Depois de determinar o que faz o programa do Exercício 5.47, modifique-o para funcionar adequadamente após remover a restrição de o segundo argumento ser não-negativo.*/

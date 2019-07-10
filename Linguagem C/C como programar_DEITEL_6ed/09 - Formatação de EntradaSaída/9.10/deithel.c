@@ -1,1 +1,0 @@
-/*Escreva um programa para testar os resultados da impressão do valor inteiro 12345 e o valor de ponto flutuante 1.2345 em vários tamanhos de campos. O que acontece quando os valores são impressos em campos que contêm menos dígitos que os valores?*/

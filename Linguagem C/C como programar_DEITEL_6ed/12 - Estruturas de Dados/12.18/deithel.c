@@ -1,1 +1,0 @@
-/*Neste capítulo, vimos que a eliminação de valores duplicados é simples durante a criação de uma árvore de pesquisa binaria. Descreva como você realizaria a eliminação de valores duplicados usando apenas um único array unidimensional. Compare o desempenho da eliminação baseada em array com a eliminação baseada em árvore de pesquisa binaria.*/

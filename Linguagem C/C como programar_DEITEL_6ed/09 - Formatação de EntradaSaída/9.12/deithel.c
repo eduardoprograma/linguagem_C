@@ -1,1 +1,0 @@
-/*Escreva um programa que receba a entrada de uma string a partir do teclado e determine o comprimento da string. Imprima a string usando o dobro do comprimento da string como tamanho de campo.*/

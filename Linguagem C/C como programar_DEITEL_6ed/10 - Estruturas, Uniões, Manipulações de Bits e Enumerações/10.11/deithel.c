@@ -1,1 +1,0 @@
-/*Se seu computador utiliza inteiros de 4 bits, modifique o programa da Fig. 10.7 dc forma que cie funcione com inteiros de 4 bits.*/

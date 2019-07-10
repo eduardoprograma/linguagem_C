@@ -1,9 +1,0 @@
-/*(Simulação de Supermercado) Escreva um programa que simule a fila de clientes no caixa de um super-mercado. Os clientes devem ser programados em uma fila e chegam em intervalos de 1 a 4 minutos. Além disso, cada cliente é atendido em intervalos inteiros aleatórios de 1 a 4 minutos. Obviamente, as taxas de chegada e de atendimento precisam ser equilibradas. Se a taxa média de chegada for maior do que a taxa média de atendimento, a fila crescerá indefinidamente. Mesmo com taxas equilibradas, o caráter aleatório da chegada e do atendimento ainda pode causar filas imensas. Execute o programa de simulação do super-mercado para um dia de 12 horas (720 minutos) usando o seguinte algoritmo:
-    1) Escolha um inteiro aleatório entre 1 e 4 para determinar o minuto no qual o primeiro cliente chega.
-    2) No momento da chegada do primeiro cliente: Determine a hora de atendimento do cliente (inteiro aleatório entre 1 e 4);
-    Comece a atender o cliente; Marque a hora de chegada do próximo cliente (inteiro aleatório entre 1 e 4 adicionado à hora atual).
-    3) Para cada minuto do dia: Se chegar o próximo cliente, Coloque-o na fila; Marque o tempo dc chegada do próximo cliente: Se o atendimento do último cliente foi concluído; Encerre seu atendimento Tire da fila o próximo cliente a ser atendido Determine o tempo de conclusão do atendimento^do cliente (inteiro aleatório de1 a 4 adicionado à hora atual).
-Agora execute sua simulação para 720 minutos e responda a cada uma das perguntas a seguir: 
-    a) Qual o número máximo de clientes na fila no período da simulação? 
-    b) Qual a espera máxima experimentada por um dos clientes? 
-    c) O que acontece se o intervalo de chegada for modificado de 1 a 4 minutos para 1 a 3 minutos?*/

@@ -1,1 +1,0 @@
-/*Escreva um programa que receba um caractere do teclado e verifique-o com cada uma das funções manipulação de caracteres. O programa deve imprimir o valor retornado por cada função.*/

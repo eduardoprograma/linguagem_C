@@ -1,1 +1,0 @@
-/*Faça um programa que mostre todos os recebimentos com data  de vencimento dentro de um período qualquer. Não esqueça de mostrar tabém o nome do cliente e o total de dias de atraso. Quando não houver atraso mostrar zero.*/

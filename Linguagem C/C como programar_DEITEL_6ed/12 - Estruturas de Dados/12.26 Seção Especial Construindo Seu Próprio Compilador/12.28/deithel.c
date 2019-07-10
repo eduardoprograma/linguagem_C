@@ -1,9 +1,0 @@
-/*(Otimizando o Compilador Simples) Quando um programa é compilado e convertido a LMS, é gerado um conjunto de instruções. Certas combinações de instruções repetem-se com freqüência, normalmente em grupos de três instruções chamados produções. Normalmente uma produção consiste em três instruções como load (carregar), add (somar) e store (armazenar). Por exemplo, a Fig. 12.30 ilustra cinco das instruções LMS produzidas na compilação do programa da Fig. 12.28. As três primeiras instruções são a produção que soma 1 a y. Observe que as instruções 06 e 07 armazenam o valor do acumulador no local temporário 96 e depois carregam novamente o valor no acumulador para que a instrução 0 8 possa armazenar o valor no local 9 8. Freqüentemente uma produção é seguida de uma instrução de carregamento para o mesmo local que acabou de ser armazenado. Esse código pode ser otimizado eliminando a instrução de armazenamento e a instrução de carregamento subseqüente que agem no mesmo local da memória. Essa otimização permitiria ao Simpletron executar o programa mais rapidamente porque há menos instruções nessa versão. A Fig. 12.31 ilustra a LMS otimizada para o programa da Fig. 12.28. Observe que há quatro instruções a menos no código otimizado — uma economia de 25% na memória.
-
-04  +2098   (carrega) 
-05  +3097   (soma) 
-06  +2196   (armazena) 
-07  +2096   (carrega) 
-08  +2198   (armazena)
-
-Modifique o compilador para fornecer uma opção de otimizar o código da Linguagem de Máquina Simpletron que ele produz. Compare manualmente o código não-otimizado com o otimizado e calcule a porcentagem de redução.*/

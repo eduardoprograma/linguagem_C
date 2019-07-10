@@ -1,1 +1,0 @@
-/*Escreva uma função que retorne o menor número entre três números de ponto flutuante.*/

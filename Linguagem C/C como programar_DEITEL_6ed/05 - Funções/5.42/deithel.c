@@ -1,1 +1,0 @@
-/*O maior divisor comum dos inteiros x e y é o maior inteiro que divide precisamente x e y. Escreva uma função recursiva mãe que retorne o maior divisor comum de x e y. O maior divisor comum de x e y é definido recursivamente como se segue: Se y for igual a 0, então mdc (x, y) é x; de outra forma, mdc (x, y) é mdc(y, x%y) onde % é o operador resto (modulus).*/

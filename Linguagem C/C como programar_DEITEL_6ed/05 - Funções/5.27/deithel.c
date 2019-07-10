@@ -1,4 +1,0 @@
-/*Diz-se que um inteiro é primo se for divisível apenas por 1 e por si mesmo. Por exemplo, 2, 3, 5 e 7 são primos, mas 4, 6, 8 e 9 não são.
-a) Escreva uma função que determine se um número é primo. 
-b) Use essa função em um programa que determine e imprima todos os números primos entre 1 e 10.000. Quantos desses 10.000 números deverão ser realmente testados antes de se ter a certeza de que todos os números primos foram encontrados? 
-c) Inicialmente você poderia pensar que n/2 é o limite superior que deve ser testado para ver se um número é primo, mas você só precisa ir até a raiz quadrada de n. Por quê? Escreva novamente o programa e execute-o das duas maneiras. Faça uma estimativa da melhora no desempenho.*/

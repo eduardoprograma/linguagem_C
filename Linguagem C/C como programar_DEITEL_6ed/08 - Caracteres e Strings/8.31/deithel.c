@@ -1,1 +1,0 @@
-/*Escreva suas próprias versões das funções da Fig. 8.22 para pesquisar strings.*/

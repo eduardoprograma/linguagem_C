@@ -1,4 +1,0 @@
-2.11 Preencha os espaços de cada sentença: 
-a) Que operações aritméticas estão no mesmo nível de precedência da multiplicação? ______
-b) Quando os parênteses são aninhados, qual conjunto de parênteses é avaliado em primeiro lugar em uma expressão aritmética? ______.
-c) Uma posição na memória do computador que pode conter diferentes valores em vários momentos a execução de um programa é chamada de ______.

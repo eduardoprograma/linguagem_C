@@ -1,1 +1,0 @@
-/*Escreva uma função múltiplo que determine, para um par de números inteiros, se o segundo número é múltiplo do primeiro. A função deve ter dois argumentos inteiros e retornar 1 (verdadeiro) se o segundo número for múltiplo do primeiro, e 0 (falso) em caso contrário. Use essa função em um programa que receba uma série de números inteiros*/

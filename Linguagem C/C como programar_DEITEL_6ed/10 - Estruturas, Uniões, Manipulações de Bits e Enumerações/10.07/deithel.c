@@ -1,1 +1,0 @@
-/*Modifique o programa da Fig. 10.16 para embaralhar as cartas usando um embaralhamento de alto desempe nho (como é mostrado na Fig. 10.3). Imprima o baralho resultante no formato de duas colunas mostrado na Fig. 10.4. Preceda cada carta com sua cor.*/

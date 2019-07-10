@@ -1,1 +1,0 @@
-/*Escreva um programa que use a macro SOMAARRAY para somar os valores de um array numérico. A macro deve receber como argumentos o array e o seu número de elementos.*/

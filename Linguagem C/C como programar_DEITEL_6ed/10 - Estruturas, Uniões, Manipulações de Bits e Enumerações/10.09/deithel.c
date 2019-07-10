@@ -1,1 +1,0 @@
-/*Crie a união floatingPoint com membros f loat f, double de long double 1. Escreva um programa que receba valores do tipo f loat, double e long double e armazene os valores em variáveis de união do tipo union floatingPoint. Cada variável da união deve ser impressa como float, double e long double. Os valores sempre são impressos corretamente?*/

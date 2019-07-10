@@ -1,1 +1,0 @@
-/*Faça um programa que exclua clientes e, consequentemente, todos os seus recebimentos, dos arquivos criados no exercício 1.*/

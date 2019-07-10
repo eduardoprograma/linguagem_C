@@ -1,1 +1,0 @@
-Complete as seguintes sentenças: a) O operador_retorna o local da memória onde o operando está armazenado. b) O operador_retorna o valor do objeto para o qual seu operando aponta. c) Para simular uma chamada por referência ao passar uma variável que não é um array a uma função, é necessário passar o(a)_da variável à função.

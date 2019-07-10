@@ -1,1 +1,0 @@
-/*Escreva um programa que receba um código ASCII e imprima o caractere correspondente. Modifique esse programa para que ele gere todos os códigos possíveis de três dígitos no intervalo de 000 a 255 e tente imprimir os caracteres correspondentes. O que acontece quando esse programa é executado?*/

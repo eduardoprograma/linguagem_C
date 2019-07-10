@@ -1,1 +1,0 @@
-/*Modifique o programa escrito no Exercício 4.31 para ler um número ímpar de 1 a 19 para especificar o número de linhas no losango. Seu programa deve então exibir um losango do tamanho apropriado.*/

@@ -1,1 +1,0 @@
-/*Escreva um programa que teste se os exemplos de chamadas das funções da biblioteca matemática mostra dos na Fig. 5.2 realmente produzem os resultados indicados.*/

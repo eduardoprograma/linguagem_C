@@ -1,2 +1,0 @@
-/*Faça uma função que receba por paramentro um valor inteiro e positivo N e retorne o valor de S, onde a 1ªparcela da soma tem N = 1,  a 2ªparcela tem N = 2, ..., até Nser igual ao valor digitado.
-    S = 1 + 1 / 2 + 1 / 3 + 1 / 4 + 1 / 5 + 1 / N.*/

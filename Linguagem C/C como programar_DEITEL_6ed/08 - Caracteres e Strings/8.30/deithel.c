@@ -1,1 +1,0 @@
-/*Escreva duas versões de cada uma das funções de comparação de strings da Fig. 8.20. A primeira versão deve usar subscritos de arrays e a segunda versão deve usar ponteiros e aritmética de ponteiros.*/

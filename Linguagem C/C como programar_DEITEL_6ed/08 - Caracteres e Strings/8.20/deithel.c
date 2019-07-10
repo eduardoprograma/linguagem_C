@@ -1,1 +1,0 @@
-/*Escreva um programa que receba várias linhas de texto e use strtok para contar o número total de palavras. Admita que as palavras estão separadas por espaços em branco ou caracteres de nova linha.*/
