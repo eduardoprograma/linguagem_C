@@ -2,24 +2,24 @@
 //Nome do Autor: Eduardo Felizardo Cândido
 //Data de Criação: 29/06/2019
 //Descrição ou Finalidade: 
-/*4.12 	Calculando a soma de inteiros pares. 
-	Escreva um programa que calcule e imprima a soma dos inteiros pares de 2 a 30. */
+/*4.13 	Calculando o produto de inteiros ímpares. 
+	Escreva um programa que calcule e imprima o produto dos inteiros ímpares de 1 a 15. */
 
 #include <stdio.h>
 
 int main(void)		//inicio da função main.
 {
 	/* declaração das varáveis */
-	int i, soma = 0;
+	int i, x = 1;
 
 	/* entrada de dados */
 	/* processamento */
-	for (i = 2; i < 31; i+=2)
+	for(i = 1; i < 16; i += 2)
 	{
-		soma += i;
+		x *= i;
 	}
-	
+
 	/* saída de dados */
-	printf("A soma dos numeros pares e %d.\n", soma);
+	printf("O produto dos numeros impares ate 15 e %d.\n\n", x);
 	return 0;
 }			//fim da função main.
