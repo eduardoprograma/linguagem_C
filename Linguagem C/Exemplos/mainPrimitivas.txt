@@ -1,0 +1,42 @@
+#include <glut.h>
+// -lglut32 -lglu32 -lopengl32
+
+void desenha()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+	
+	glColor3f(0,0,1.0);
+	glPointSize(4.0);
+	glBegin(GL_POINTS);
+		glVertex2i(400,300);
+	glEnd();
+	
+	glColor3f(0,1.0,0);
+	glBegin(GL_LINES);
+		glVertex2i(100,100);
+		glVertex2i(200,500);
+	glEnd();
+	
+	glFlush();
+	
+}
+
+
+
+int main(int argc, char* argv[]) {
+
+	
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
+	glutInitWindowSize(800, 600);
+	glutCreateWindow("Primitivas OpenGL");
+	glClearColor(0, 0, 0, 0);// fundo preta
+	glutDisplayFunc(desenha);
+    
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    gluOrtho2D(0,800,0,600);
+          	
+	glutMainLoop();
+	return 0;
+}

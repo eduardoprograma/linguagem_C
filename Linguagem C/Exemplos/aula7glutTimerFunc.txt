@@ -1,0 +1,149 @@
+#include <glut.h>
+#include <cmath>
+#include<iostream>
+#include <ctime>
+// -lglut32 -lglu32 -lopengl32
+
+using namespace std;
+
+
+long int inicial=time(NULL);
+long int final, quadros=0;
+const int FPS=60;
+ 
+const int LARGURA=800;
+const int ALTURA=600;
+
+const float PI=3.1416;
+
+struct PVector
+{ 
+	float x;
+	float y;
+}; 
+
+struct Bola
+{
+	PVector posicao;
+	float raio;
+	PVector veloc;
+	PVector acel;
+	float cor[3];	
+};
+
+Bola bola;
+
+void desenhaBola(PVector pos, float r,float cor[3])
+{
+	
+	float incr=0.1;
+	glColor3fv(cor);
+	glBegin(GL_POLYGON);
+		for(float angulo=0;angulo<2*PI;angulo+=incr)
+		{
+			float x=pos.x+r*cos(angulo);
+			float y=pos.y+r*sin(angulo);
+			glVertex2f(x,y);			
+		}
+	glEnd();
+	
+}
+
+void borda()
+{
+	if(bola.posicao.y<=bola.raio)
+	{
+		bola.posicao.y=bola.raio;
+		bola.veloc.y*=-0.8;
+		
+	}
+	
+	if(bola.posicao.x>=LARGURA-bola.raio)
+	{
+		bola.veloc.x*=-0.8;
+	}
+}
+
+void moveBola()
+{
+	bola.veloc.x+=bola.acel.x;
+	bola.veloc.y+=bola.acel.y;
+	
+	bola.posicao.x+=bola.veloc.x;
+	bola.posicao.y+=bola.veloc.y;
+	borda();
+	
+}
+
+
+
+void desenha()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+	
+	desenhaBola(bola.posicao, bola.raio, bola.cor);
+	
+	glutSwapBuffers();
+	
+	quadros++;
+	final=time(NULL);
+	if(final-inicial>0)
+	{
+		cout<<"FPS: " <<quadros/(final-inicial)<<endl;
+		quadros=0;
+		inicial=final;
+	}
+
+	
+}
+
+
+void criaBola()
+{
+	bola.posicao.x=LARGURA/2;
+	bola.posicao.y=ALTURA/2;
+	bola.raio=15;
+	bola.veloc.x=0;
+	bola.veloc.y=0;
+	bola.acel.x=0;
+	bola.acel.y=-0.9;
+	bola.cor[0]=0.2;
+	bola.cor[1]=0.3;
+	bola.cor[2]=0.8;
+}
+
+
+void init()
+{
+	
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	glutInitWindowSize(LARGURA, ALTURA);
+	glutCreateWindow("Bolas");
+	glClearColor(0, 0, 0, 0);// fundo preto
+	
+    
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    gluOrtho2D(0,LARGURA,0,ALTURA);
+    
+    criaBola();
+}
+
+void idle(int)
+{
+	moveBola();
+	glutPostRedisplay();
+	glutTimerFunc(1000/FPS,idle,0);
+}
+
+int main(int argc, char* argv[]) {
+
+	
+	glutInit(&argc, argv);
+	init();      	
+	glutDisplayFunc(desenha);
+	glutTimerFunc(1000/FPS,idle,0);
+	
+	glutMainLoop();
+	return 0;
+}

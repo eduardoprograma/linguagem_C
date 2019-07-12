@@ -1,0 +1,123 @@
+#include <glut.h>
+#include <cmath>
+// -lglut32 -lglu32 -lopengl32
+
+const int LARGURA=800;
+const int ALTURA=600;
+
+const float PI=3.1416;
+
+struct Bola
+{
+	float x;
+	float y;
+	float raio;
+	float vx;
+	float vy;
+	float acx;
+	float acy;
+	float cor[3];	
+};
+
+Bola bola;
+
+void desenhaBola(float xc, float yc, float r,float cor[3])
+{
+	
+	float incr=0.1;
+	glColor3fv(cor);
+	glBegin(GL_POLYGON);
+		for(float angulo=0;angulo<2*PI;angulo+=incr)
+		{
+			float x=xc+r*cos(angulo);
+			float y=yc+r*sin(angulo);
+			glVertex2f(x,y);			
+		}
+	glEnd();
+	
+}
+
+void borda()
+{
+	if(bola.y<=bola.raio)
+	{
+		bola.y=bola.raio;
+		bola.vy*=-1;
+	}
+}
+
+void moveBola()
+{
+	bola.vx+=bola.acx;
+	bola.vy+=bola.acy;
+	
+	bola.x+=bola.vx;
+	bola.y+=bola.vy;
+	borda();
+	
+}
+
+
+
+void desenha()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+	
+	desenhaBola(bola.x, bola.y, bola.raio, bola.cor);
+	moveBola();
+	
+	glFlush();
+	glutSwapBuffers();
+	
+
+	
+}
+
+
+void criaBola()
+{
+	bola.x=LARGURA/2;
+	bola.y=ALTURA/2;
+	bola.raio=15;
+	bola.vx=0;
+	bola.vy=0;
+	bola.acx=0;
+	bola.acy=-0.002;
+	bola.cor[0]=0.2;
+	bola.cor[1]=0.3;
+	bola.cor[2]=0.8;
+}
+
+
+void init()
+{
+	
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	glutInitWindowSize(LARGURA, ALTURA);
+	glutCreateWindow("Bolas");
+	glClearColor(0, 0, 0, 0);// fundo preta
+	
+    
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    gluOrtho2D(0,800,0,600);
+    
+    criaBola();
+}
+
+void idle()
+{
+	glutPostRedisplay();
+}
+
+int main(int argc, char* argv[]) {
+
+	
+	glutInit(&argc, argv);
+	init();      	
+	glutDisplayFunc(desenha);
+	glutIdleFunc(idle);
+	
+	glutMainLoop();
+	return 0;
+}

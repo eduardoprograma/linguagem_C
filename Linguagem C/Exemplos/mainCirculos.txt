@@ -1,0 +1,69 @@
+#include <glut.h>
+#include <cmath>
+// -lglut32 -lglu32 -lopengl32
+
+const float PI=3.1416;
+float xmin,xmax,ymin,ymax;
+
+
+void desenha_Circulo(float xc, float yc, float r,float c1, float c2, float c3)
+{
+	
+	float incr=0.1;
+	float cor[3];
+	
+	
+	cor[0]=c1;
+	cor[1]=c2;
+	cor[2]=c3;
+	glColor3fv(cor);
+	glBegin(GL_POLYGON);
+		for(float angulo=0;angulo<2*PI;angulo+=incr)
+		{
+			float x=xc+r*cos(angulo);
+			float y=yc+r*sin(angulo);
+			glVertex2f(x,y);			
+		}
+	glEnd();
+	
+}
+
+void desenha()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+	
+	desenha_Circulo(400,300,40,0,0,1);
+	desenha_Circulo(50,50,10,1,0,0);
+	desenha_Circulo(500,500,30,0.3, 0.8, 0.2);
+	
+	
+	
+	glFlush();
+	
+}
+
+
+void init()
+{
+	
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
+	glutInitWindowSize(800, 600);
+	glutCreateWindow("Bolas");
+	glClearColor(0, 0, 0, 0);// fundo preta
+	
+    
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    gluOrtho2D(0,800,0,600);
+}
+
+
+int main(int argc, char* argv[]) {
+
+	
+	glutInit(&argc, argv);
+	init();      	
+	glutDisplayFunc(desenha);
+	glutMainLoop();
+	return 0;
+}
