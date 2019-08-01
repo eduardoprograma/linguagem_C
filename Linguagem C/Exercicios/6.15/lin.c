@@ -42,7 +42,7 @@ int main(void)		//inicio da função main.
 		/* Imprimirá apenas se não for uma duplicata */
 		if(volta == 0)
 		{
-			printf("1.Numero[%d] = %d\n", i, numero[i]);
+			printf("Numero[%d] = %d\n", i, numero[i]);
 		}
 		else
 		{
@@ -70,12 +70,9 @@ int duplicata(int numero[], int i)
 		/* Compara os numeros */
 		for(j = 0; j < i; j++)
 		{
-			for(k = 0; k < i; k++)
+			if(numero[j] == numero[i])
 			{
-				if(numero[j] == numero[k])
-				{
-					cont++;
-				}
+				cont++;
 			}
 		}
 	}
