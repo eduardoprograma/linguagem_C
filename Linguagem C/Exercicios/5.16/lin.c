@@ -1,10 +1,24 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*5.16 	Exponenciação 
-	Escreva uma função potenciaInt(base, expoente) que retorne o valor de base^expoente
-	Por exemplo, potenciaInt( 3, 4 ) = 3 * 3 * 3 * 3. Suponha que expoente seja um inteiro positivo, diferente de zero, e base seja um inteiro. A função potenciaInt deve usar for para controlar o cálculo. Não use funções da biblioteca matemática. */
+/*
+ ============================================================================
+ Name			: linc.c
+ Author      	: Eduardo Felizardo Cândido
+ Creation date 	: 01/08/2019
+ Version     	: R00
+ Copyright   	: Your copyright notice
+ Description 	: Hello World in C, Ansi-style
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 5.16 	Exponenciação 
+	Escreva uma função potenciaInt(base, expoente) que retorne o valor de 
+	base^expoente.
+	Por exemplo, potenciaInt( 3, 4 ) = 3 * 3 * 3 * 3. Suponha que expoente se-
+	ja um inteiro positivo, diferente de zero, e base seja um inteiro. A função 
+	potenciaInt deve usar for para controlar o cálculo. Não use funções da bib-
+	lioteca matemática.
+ ============================================================================
+*/ 
 
 #include <stdio.h>
 
