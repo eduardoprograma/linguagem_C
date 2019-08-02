@@ -3,7 +3,7 @@
  Name			: srpa.c
  Author      	: Eduardo Felizardo Cândido
  Creation date 	: 02/08/2019
- Version     	: R00
+ Version     	: R01
  Copyright   	: programacaoedu@gmail.com
  Description 	: Sistema de reservas de passagens aéreas.
  ============================================================================
@@ -46,105 +46,104 @@ int main(void)		//inicio da função main.
 {
 	/* declaração das varáveis */
 	struct tm *data_hora_atual;	
-	int poltronas[SIZE] = {0};
-	char nomePassageiro[60];
-	int classe[] ={0};
-	char transportadora[] = "AC";
-	char bagagem[] = "Y";
-	int date[10][10][10] = {{0}};
-	char portao[] = "K18";
-	int horaEmbarque[10][10][10] = {{0}};
-	char numeroVoo[] = "AC 2505";
-	int contador;
-	int contPoltrona;
-	int i;
-	int aux_poltrona = 0;
-	int contAuxPoltrona = 0;
+	char NomePassageiro[60];
+	int NumeroPoltrona[SIZE] = {0};
+	int ControleVoo;
+	int ControlePoltrona;
+	int auxControlPoltrona = 0;
+	int PoltronaEscolhido = 0;
+	int classe = 0;
+	int contPolt = 0;
 
-	for(contador = 0; contador < SIZE; contador++)
+	for(ControleVoo = 0; ControleVoo < SIZE; ControleVoo++)
 	{
-		/* entrada de dados */
-		escolha_Classe:
-		printf("Favor digitar 1 para 'primeira classe'\n");
-		printf("Favor digitar 2 para 'economica'\n");
+		/* Entrada de dados. */
+		classes:
+		printf("Favor digitar 1 para primeira classe.\n");
+		printf("Favor digitar 2 para classe economica.\n");
+		printf("Digite a opcao: ");
 		scanf("%d", &classe);
 		escolha:
-		/* processamento */
-		if(classe == 1)
+
+		/* Processamento */
+		switch (classe)
 		{
-			printf("Digite o nome do passageiro: ");
-			gets(nomePassageiro[60]);
-			printf("Poltronas disponiveis.\n");
-			for(contPoltrona = 0, i = 0; contPoltrona < 5; contPoltrona++, i++)
+		case 1:
+			printf("Nome do passageiro: ");
+			scanf("%s", NomePassageiro);
+			printf("Acentos disponiveis.\n");
+			for(ControlePoltrona = 0; ControlePoltrona < 5; ControlePoltrona++)
 			{
-				if(poltronas[i] == 0)
+				if(NumeroPoltrona[ControlePoltrona] == 0)
 				{
-					printf("Poltrona disponivel N: %d\n", i + 1);
-					contAuxPoltrona++;
-				}
-				if(contAuxPoltrona == 0)
-				{
-					printf("Nao existe mais assentos disponiveis neste voo.\n\n");
-					printf("Aceita viajar de classe economica?");
-					printf("Se sim digite 2. Se preferir aguardar proximo voo.\n Este partira daqui 3 horas. Digite 0\n");
-					scanf("%d", &classe);
-					if(classe == 2)
-					{
-						goto escolha;
-					}
-					else 
-					{
-						goto escolha_Classe;
-					}
+					printf("Numero de acento disponivel %d.\n", ControlePoltrona + 1);
+					contPolt++;
 				}
 			}
-			printf("Escolha o numero da poltrona: ");
-			scanf("%d", &aux_poltrona);
-			poltronas[aux_poltrona] = 1;
-			
-			printf("Impressao do bilhete de embarque:\n\n");
-			printf("%s\t%s\t%s\n\n", "AirCompany", "Bilhete de Embarque", "B.de Embarque");
-			printf("%s\t%s\t%s\t%s\t%s%s\n", "Nome do passageiro", "Companhia", "N.Voo", "Classe", ":", "Nome do Passageiro");
-			printf("%s\t%s\t%s\t%s\t%s%s\n", nomePassageiro, transportadora, numeroVoo, "A", ":", nomePassageiro);
-		}
-		else
-		{
-			printf("Digite o nome do passageiro: ");
-			gets(nomePassageiro);
-			printf("Poltronas disponiveis.\n");
-			for(contPoltrona = 5, i = 0; contPoltrona < 10; contPoltrona++, i++)
+			if(contPolt == 0)
 			{
-				if(poltronas[i] == 0)
+				printf("Infelizmente não possuimos mais lugares na primeira classe.\n");
+				printf("Gostaria de viajar na classe economica? Ou aguardar o proximo voo daqui a 3 horas?");
+				printf("Para aguardar proximo voo digite 0.\nPara voar na classe economica digite 2.\n");
+				scanf("%d", &classe);
+				if(classe == 2)
 				{
-					printf("Poltrona disponivel N: %d\n", i + 1);
-					contAuxPoltrona++;
+					goto escolha;
 				}
-				if(contAuxPoltrona == 0)
+				else
 				{
-					printf("Nao existe mais assentos disponiveis neste voo.\n\n");
-					printf("Aceita viajar de Primeira Classe?");
-					printf("Se sim digite 1. Se preferir aguardar proximo voo.\n Este partira daqui 3 horas. Digite 0\n");
-					scanf("%d", &classe);
-					if(classe == 1)
-					{
-						goto escolha;
-					}
-					else 
-					{
-						goto escolha_Classe;
-					}
+					goto classes;
 				}
 			}
-			printf("Escolha o numero da poltrona: ");
-			scanf("%d", &aux_poltrona);
-			poltronas[aux_poltrona] = 1;
-			
-			printf("Impressao do bilhete de embarque:\n\n");
-			printf("%s\t%s\t%s\n\n", "AirCompany", "Bilhete de Embarque", "B.de Embarque");
-			printf("%s\t%s\t%s\t%s\t%s%s\n", "Nome do passageiro", "Companhia", "N.Voo", "Classe", ":", "Nome do Passageiro");
-			printf("%s\t%s\t%s\t%s\t%s%s\n", nomePassageiro, transportadora, numeroVoo, "A", ":", nomePassageiro);
+			contPolt = 0;
+			printf("Caso 1\n");
+			printf("Escolha um acento: ");
+			scanf("%d", &auxControlPoltrona);
+			PoltronaEscolhido = auxControlPoltrona - 1;
+			NumeroPoltrona[PoltronaEscolhido] = 1;
+			break;
+		
+		case 2:
+			printf("Nome do passageiro: ");
+			scanf("%s", NomePassageiro);
+			printf("Acentos disponiveis.\n");
+			for(ControlePoltrona = 5; ControlePoltrona < SIZE; ControlePoltrona++)
+			{
+				if(NumeroPoltrona[ControlePoltrona] == 0)
+				{
+					printf("Numero de acento disponivel %d.\n", ControlePoltrona + 1);
+				}
+			}
+			if(contPolt == 0)
+			{
+				printf("Infelizmente não possuimos mais lugares na primeira classe.\n");
+				printf("Gostaria de viajar na classe economica? Ou aguardar o proximo voo daqui a 3 horas?");
+				printf("Para aguardar proximo voo digite 0.\nPara voar na classe economica digite 2.\n");
+				scanf("%d", &classe);
+				if(classe == 2)
+				{
+					goto escolha;
+				}
+				else
+				{
+					goto classes;
+				}
+			}
+			contPolt = 0;
+			printf("Caso 2\n");
+			printf("Escolha um acento: ");
+			scanf("%d", &auxControlPoltrona);
+			PoltronaEscolhido = auxControlPoltrona - 1;
+			NumeroPoltrona[PoltronaEscolhido] = 1;
+			break;
+
+		default:
+			break;
 		}
+		printf("\n\n");
+		printf("%s\t%s\t%28s%s\t\n", "AirCompany", "Bilhete de Embarque", ":", "B.de Embarq.");
+		printf("%s\t%10s\t%s\t%s\t%s%5s\t\n", "Nome do Passageiro", "Companhia", "N.Voo", "Classe", ":", "Nome do passageiro");
+		printf("%s\t%22s\t%5s\t%10s\t%s%5s\t\n", NomePassageiro, "GOL", "2505", "Classe", ":", NomePassageiro);
 	}
-	/* saída de dados */
 	return 0;
 }			//fim da função main.
