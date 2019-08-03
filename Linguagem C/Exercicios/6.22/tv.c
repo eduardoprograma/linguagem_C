@@ -1,11 +1,11 @@
 /*
  ============================================================================
- Name			: linc.c
+ Name			: tv.c
  Author      	: Eduardo Felizardo Cândido
  Creation date 	: 01/08/2019
  Version     	: R00
  Copyright   	: programacaoedu@gmail.com
- Description 	: Sistema de reservas de passagens aéreas.
+ Description 	: Total de vendas.
  ============================================================================
 */
 /*
@@ -38,6 +38,9 @@
 int main(void)		//inicio da função main.
 {
 	/* declaração das varáveis */
+	int NumeroVendedor;
+	int NumeroProduto;
+	float ValorProduto;
 	/* entrada de dados */
 	/* processamento */
 	/* saída de dados */
