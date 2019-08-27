@@ -1,27 +1,35 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*2.21	2.21 Formas com asteriscos. Escreva um programa que imprima as seguintes formas com asteriscos. */
-
+/*
+ ============================================================================
+ Name			: exercicio_2.21
+ Author      	: Eduardo Felizardo
+ Creation date 	: 27/08/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_2 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 2.21 Formas com asteriscos. Escreva um programa que imprima as seguintes fo-
+ rmas com asteriscos.
+ ============================================================================
+*/  
 #include <stdio.h>
 
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	/* entrada de dados */
-	/* processamento */
-	/* saída de dados */
-	printf("\n");
-	printf("*********    ***      *        *\n");
-	printf("*       *   *   *    ***      * *\n");
-	printf("*       *  *     *  *****    *   *\n");
-	printf("*       *  *     *    *     *     *\n");
-	printf("*       *  *     *    *    *       *\n");
-	printf("*       *  *     *    *     *     *\n");
-	printf("*       *  *     *    *      *   *\n");
-	printf("*       *   *   *     *       * *\n");
-	printf("*********    ***      *        *\n");
+	printf("**********    ***      *        *\n");
+	printf("*        *   *   *    ***      * *\n");
+	printf("*        *  *     *  *****    *   *\n");
+	printf("*        *  *     *    *     *     *\n");
+	printf("*        *  *     *    *    *       *\n");
+	printf("*        *  *     *    *     *     *\n");
+	printf("*        *  *     *    *      *   *\n");
+	printf("*        *   *   *     *       * *\n");
+	printf("**********    ***      *        *\n");
 
-	return 0;
-}			//fim da função main.
+	return ;		//Indica o sucesso do programa.
+}
+/* fim da função main */
+

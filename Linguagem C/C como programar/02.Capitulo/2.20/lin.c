@@ -1,28 +1,43 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*2.20	Diâmetro, circunferência e área de um círculo. 
-	Escreva um programa que leia o raio de um círculo e informe o diâmetro, a circunferência e a área do círculo. Utilize o valor constante 3,14159 para pi. Realize cada um desses cálculos dentro das instruções printf e use o especificador de conversão %f. [Nota: neste capítulo, discutimos apenas constantes e variáveis inteiras. No Capítulo 3, discutiremos os números em ponto flutuante, ou seja, valores que podem ter pontos decimais.]*/
-
+/*
+ ============================================================================
+ Name			: exercicio_2.20
+ Author      	: Eduardo Felizardo
+ Creation date 	: 27/08/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_2 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 2.20	Diâmetro, circunferência e área de um círculo. 
+	Escreva um programa que leia o raio de um círculo e informe o diâmetro, a 
+	circunferência e a área do círculo. Utilize o valor constante 3,14159 pa-
+	ra pi. Realize cada um desses cálculos dentro das instruções printf e use 
+	o especificador de conversão %f. [Nota: neste capítulo, discutimos apenas 
+	constantes e variáveis inteiras. No Capítulo 3, discutiremos os números 
+	em ponto flutuante, ou seja, valores que podem ter pontos decimais.]
+ ============================================================================
+*/ 
 #include <stdio.h>
-#include <math.h>
-#define PI 3.14159
 
-int main(void)		//inicio da função main.
+/* inicio da função main*/
+int main()
 {
-	/* declaração das varáveis */
-	float raio = 0.0, circunferencia = 0.0, area_Circulo =  0.0, diametro = 0.0;
+	/* declaração de variáveis */
+	int raio;		//raio do circulo
 
 	/* entrada de dados */
-	printf("Digite o raio da circunferencia: ");
-	scanf("%f", &raio);
+	printf("Entre com o valor do raio: ");
+	scanf("%d", &raio);
 
-	/* processamento */
-	/* saída de dados */
-	printf("O diametro %.2f\n", diametro =  2 * raio);
-	printf("A circunferencia %.2f\n", circunferencia = diametro * PI);
-	printf("A area da circunferencia %.2f\n", area_Circulo = PI * pow(raio, 2));
+	/*processamento e saída de dados */
+	printf("O diametro e %d.\n", 2 * raio);
+	printf("A circunferencia e %f.\n", 2 * 3.14159 * raio);
+	printf("A area da circunferencia e %f", 3.14159 * (raio * raio));
 
-	return  0;
-}			//fim da função main.
+	return 0;		//sucesso para o programa. 
+}
+/* fim da função main*/
+
+
