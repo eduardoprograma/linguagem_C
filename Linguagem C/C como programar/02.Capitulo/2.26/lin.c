@@ -1,10 +1,20 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*2.26	Múltiplos. 
+/*
+ ============================================================================
+ Name			: exercicio_2.24
+ Author      	: Eduardo Felizardo
+ Creation date 	: 31/08/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_2 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 2.26	Múltiplos. 
 	Escreva um programa que leia dois inteiros, determine e imprima se o primeiro for um múltiplo do segundo. 
-	[Dica: use o operador módulo.]*/
+	[Dica: use o operador módulo.]
+ ============================================================================
+*/
 
 #include <stdio.h>
 

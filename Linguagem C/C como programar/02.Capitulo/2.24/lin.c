@@ -1,36 +1,49 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*2.24	Par ou ímpar. 
-	Escreva um programa que leia um inteiro, determine e imprima se ele é par ou ímpar. 
-	[Dica: use o operador módulo. Um número par é um múltiplo de dois. Qualquer múltiplo de dois gera resto zero quando dividido por 2.] */
-
+/*
+ ============================================================================
+ Name			: exercicio_2.24
+ Author      	: Eduardo Felizardo
+ Creation date 	: 31/08/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_2 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 2.24	Par ou ímpar. 
+	Escreva um programa que leia um inteiro, determine e imprima se ele é par 
+	ou ímpar. 
+	[Dica: use o operador módulo. Um número par é um múltiplo de dois. Qual-
+	quer múltiplo de dois gera resto zero quando dividido por 2.]
+ ============================================================================
+*/
+/* Solução do exercício 2.24 */
 #include <stdio.h>
 
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	int x = 0;
-	int par = 0, impar = 0;
+	/* declaração de varáveis */
+	int integral;		//variável integral.
 
 	/* entrada de dados */
-	printf("Vamos ver se este numero e para ou impar.\n");
-	printf("Digite um numero ineteiro: ");
-	scanf("%d", &x);
+	printf("Digite um numero inteiro: ");	
+	scanf("%d", &integral);
 
-	/* processamento */
-	x %= 2;
+	/*saída de dados */
+	/* teste de para par */
+	if((integral % 2) == 0)
+	{
+		printf("%d este numero e par.\n", integral);
+	}
 
-	/* saída de dados */
-	if(x == 0)
+	/* teste para impar */
+	if((integral % 2) != 0)
 	{
-		printf("Seu numero e par.\n");
+		printf("%d este numero e impar.\n", integral); 
 	}
-	else
-	{
-		printf("Seu numero e impar.\n");
-	}
-	
-	return 0;
-}			//fim da função main.
+
+	return 0;		//sucesso do programa.
+}
+/* fim da função main */
+
