@@ -1,26 +1,41 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*2.27	Padrão de asteriscos alternados. 
-Apresente o seguinte padrão de asteriscos alternados com oito instruções printf, e depois apresente o mesmo padrão com o mínimo de instruções printf possível. */
-
+/*
+ ============================================================================
+ Name			: exercicio_2.27
+ Author      	: Eduardo Felizardo
+ Creation date 	: 31/08/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_2 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 2.27	Padrão de asteriscos alternados. 
+		Apresente o seguinte padrão de asteriscos alternados com oito instru-
+		ções printf, e depois apresente o mesmo padrão com o mínimo de instru-
+		ções printf possível.
+ ============================================================================
+*/
+/* solução do exercicio 2.27 */
 #include <stdio.h>
 
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	/* entrada de dados */
-	/* processamento */
-	/* saída de dados */
-	printf("* * * * * * * * \n");
+	printf("Ultilizando 8 printf's para a impressão do conjnto.\n");
+	printf("* * * * * * * *\n");
 	printf(" * * * * * * * *\n");
-	printf("* * * * * * * * \n");
+	printf("* * * * * * * *\n");
 	printf(" * * * * * * * *\n");
-	printf("* * * * * * * * \n");
+	printf("* * * * * * * *\n");
 	printf(" * * * * * * * *\n");
-	printf("* * * * * * * * \n");
-	printf(" * * * * * * * *\n\n");		//apesar de não concordar
+	printf("* * * * * * * *\n");
+	printf(" * * * * * * * *\n\n");
 
-	printf("* * * * * * * * \n * * * * * * * *\n* * * * * * * * \n * * * * * * * *\n* * * * * * * * \n * * * * * * * *\n* * * * * * * * \n * * * * * * * *\n");
-}			//fim da função main.
+	/* próxima sequência */
+	printf("Ultilizando apenas 1 printf para a impressão do conjunto.\n");
+	printf("* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n\n");
+
+	return 0;		//programa executado com sucesso.
+}
+/* fim da função main */
