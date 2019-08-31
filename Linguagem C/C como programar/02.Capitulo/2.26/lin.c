@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name			: exercicio_2.24
+ Name			: exercicio_2.26
  Author      	: Eduardo Felizardo
  Creation date 	: 31/08/2019
  Version     	: R00
@@ -11,35 +11,35 @@
 /*
  ============================================================================
  2.26	Múltiplos. 
-	Escreva um programa que leia dois inteiros, determine e imprima se o primeiro for um múltiplo do segundo. 
+	Escreva um programa que leia dois inteiros, determine e imprima se o pri-
+	meiro for um múltiplo do segundo. 
 	[Dica: use o operador módulo.]
  ============================================================================
 */
-
+/* Solução do exercício 2.26 */
 #include <stdio.h>
 
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	int x, y;
-	int mul = 0;
+	int num1;		//primeira integral.
+	int num2;		//segunda integral.
 
 	/* entrada de dados */
-	printf("Digite dois numeros inteiros: ");
-	scanf("%d%d", &x, &y);
-	
-	/* processamento */
-	mul = x % y; 		//Determinando se são multiplos.
+	printf("Digite dois numeros inteiros: ");		//entrada de dados.
+	scanf("%d%d", &num1, &num2);		//leia os numeros e guarde.
 
-	/* saída de dados */
-	if(mul == 0)
+	/* saida de dados */
+	if((num1 % num2) == 0)
 	{
-		printf("O numero %d e multiplo de %d.\n", x, y);
+		printf("%d e um multiplo de %d.\n", num1, num2);
+		printf("Por um fator %d.\n", num1 / num2);
 	}
-	else
+	if((num1 % num2) != 0)
 	{
-		printf("O numero %d nao e multiplo de %d.\n", x, y);
+		printf("%d nao e um multiplo de %d.\n", num1, num2);
 	}
 
-	return 0;
-}			//fim da função main.
+	return 0;		//sucesso do programa.
+}
+/* fim da função main */
