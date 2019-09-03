@@ -1,41 +1,69 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*3.17 	Consumo de gasolina. Os motoristas se preocupam com o consumo de combustível de seus automóveis. Um motorista manteve um registro do número de abastecimentos que fez, registrando também o número de quilômetros rodados e de litros obtidos a cada abastecimento. Desenvolva um programa que peça o número de quilômetros dirigidos e a quantidade de litros obtidos a cada abastecimento. O programa deverá calcular e exibir a quantidade de quilômetros rodados por litros usados. Depois de processar toda a informação, o programa deverá calcular e exibir o total combinado de quilômetros por litro para todos os abastecimentos. Veja um exemplo do diálogo de entrada/saída: 
-Informe quantos litros abasteceu (-1 para terminar): 25,6
-Informe quantos km dirigiu: 287 
-O consumo atual é de 11,210937 km/l
-O consumo geral foi de 10,800712 km/l*/
-
+/*
+ ============================================================================
+ Name			: exercicio_3.17
+ Author      	: Eduardo Felizardo
+ Creation date 	: 02/09/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_3 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+ 3.17 	Consumo de gasolina. 
+ 	Os motoristas se preocupam com o consumo de combustível de seus automóveis. 
+	Um motorista manteve um registro do número de abastecimentos que fez, re-
+	gistrando também o número de quilômetros rodados e de litros obtidos a cada 
+	abastecimento. Desenvolva um programa que peça o número de quilômetros dir-
+	igidos e a quantidade de litros obtidos a cada abastecimento. O programa 
+	deverá calcular e exibir a quantidade de quilômetros rodados por litros u-
+	sados. Depois de processar toda a informação, o programa deverá calcular e 
+	exibir o total combinado de quilômetros por litro para todos os abastecime-
+	ntos. Veja um exemplo do diálogo de entrada/saída: 
+		Informe quantos litros abasteceu (-1 para terminar): 25,6
+		Informe quantos km dirigiu: 287 
+		O consumo atual é de 11,210937 km/l
+		O consumo geral foi de 10,800712 km/l
+ ============================================================================
+*/ 
+/* Solução do execício 3.17 */
 #include <stdio.h>
 
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	float abastecimento = 0.0, KM_Percorrido = 0.0 , Consumo_Atual = 0.0, Consumo_total = 0.0, Consumo_Medio = 0.0;
-	int media = 0;
+	/* declaração de varáveis */
+	double litros;
+	double quilometros;
+	double TotalLitros = 0.0;
+	double TotalQuilomentros = 0.0;
+	double ConsumoGeral;
 
 	/* entrada de dados */
-	printf("Informe quantos litros abasteceu: ");
-	scanf("%f", &abastecimento);
+	printf("Entre com a quantidade de litros abastecidos: ");
+	scanf("%lf", &litros);
 
-	/* processamento */
-	while(abastecimento != -1)
+	/* processamento de dados */
+	while(litros != -1)
 	{
-		printf("Informe quantos km dirigiu: ");
-		scanf("%f", &KM_Percorrido);
-		Consumo_Atual = KM_Percorrido / abastecimento;
-		Consumo_total += Consumo_Atual;
-		printf("O consumo atual e de %.2f km/l\n\n", Consumo_Atual);
-		printf("Informe quantos litros abasteceu (-1 para terminar): ");
-		scanf("%f", &abastecimento);
-		media++;
-	}
-	Consumo_Medio = Consumo_total / media;
-	/* saída de dados */
-	printf("O consumo geral foi de %.2f km/l\n", Consumo_total);
-	printf("O consumo medio foi de %.2f km/l\n\n", Consumo_Medio);
+		TotalLitros += litros;		//Soma dos litros abastecidos.
 
-	return 0;
-}			//fim da função main.
+		printf("Entre com a quantidade de quilomentros percorridos: ");
+		scanf("%lf", &quilometros);
+		TotalQuilomentros += quilometros;		//Soma dos quilometros percorridos.
+
+		/* Km/l */
+		printf("Os Km/l para este tanque foi %f.\n\n", quilometros/litros);
+
+		/* Novo tanque de combustível */
+		printf("Entre com a quantidade de litros abastecidos (-1 para encerrar): ");
+		scanf("%lf", &litros);
+	}
+
+	/* calculo da média */
+	ConsumoGeral = TotalQuilomentros / TotalLitros;
+	printf("A media geral de consumo foi %f Km/l.\n\n", ConsumoGeral);
+
+	return 0;		//Programa executado com sucesso.
+}
+/* fim da função main */
