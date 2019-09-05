@@ -27,7 +27,7 @@ int main( void )
     /* inicializa array de char */ 
     char string[] = "imprime caracteres de uma string";
     
-    printf( "A string é:\n" ); 
+    printf( "A string e:\n" ); 
     
     printCharacters( string ); 
     
