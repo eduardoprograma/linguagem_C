@@ -2,7 +2,7 @@
  ============================================================================
  Name			: exercicio_3.20
  Author      	: Eduardo Felizardo
- Creation date 	: 03/09/2019
+ Creation date 	: 06/09/2019
  Version     	: R00
  Copyright   	: programacaoedu@gmail.com
  Description 	: Capitulo_3 - C Como programar - Deitel
@@ -22,38 +22,39 @@ usando a fórmula apresentada. Veja um exemplo do diálogo de entrada/saída:
 	O valor dos juros é de R$100,00
  ============================================================================
 */ 
-/*Solução do exercício 3.20 */
+/* Solução do exercício 3.20 */
 #include<stdio.h>
-/*inicio da função main */
+
+/* inicio da função main */
 int main()
 {
-	/* declaração de variáveis */
-	double principal;
-	double taxa;
-	double interesse;
-	int prazo;
+	double principal;		//valor de emprétimo principal
+	double taxa;		//taxa de juros
+	double juros;		//Cobrança do juros
+	int prazo;		//Medido em dias
 
-	/* entrada de dados */
-	printf("Informe o valor principal do emprestimo: R$");
+	/* obtenha o valor principal */
+	printf("Digite o valor principal do emprestimo: ");
 	scanf("%lf", &principal);
 
-	/* looping para calculo quantas vezes forem necessário */
+	/* loop até que o valor da sentinela seja digitado pelo usuário */
 	while(principal != -1)
 	{
-		printf("Informe a taxa de juros: ");
+		printf("Digite a taxa de juros: ");		//obtenha a taxa
 		scanf("%lf", &taxa);
 
-		printf("Informe o prazo do emprestimo em dias: ");
+		printf("Digite o prazo do emprestimo em dias: ");		//Obtenha o prazo em dias
 		scanf("%d", &prazo);
 
-		interesse = principal * taxa * prazo / 365.0;
-		printf("O valor dos juros e de R$%.2f\n\n", interesse);
+		/* Calcular taxa de juro */
+		juros = principal * taxa * prazo / 365.0;
+		printf("A taxa de juros e de R$%.2f\n\n", juros);
 
-		/* novo calculo */
-		printf("Informe o valor principal do emprestimo (-1 para terminar): R$");
+		/* obtenha o principal do proximo emprestimo */
+		printf("Digite o valor principal do emprestimo (-1 para encerrar): ");
 		scanf("%lf", &principal);
-	}
+	} //termino de while
 
-	return 0;		//programa realizado com sucesso.
+	return 0;		//Indica o encerramento bem-sucedido.
 }
 /* fim da função main */
