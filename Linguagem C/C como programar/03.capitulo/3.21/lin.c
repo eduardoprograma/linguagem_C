@@ -1,8 +1,8 @@
 /*
  ============================================================================
- Name			: exercicio_3.18
+ Name			: exercicio_3.21
  Author      	: Eduardo Felizardo
- Creation date 	: 02/09/2019
+ Creation date 	: 06/09/2019
  Version     	: R00
  Copyright   	: programacaoedu@gmail.com
  Description 	: Capitulo_3 - C Como programar - Deitel
@@ -24,41 +24,45 @@
 		Salário é de R$390,00
  ============================================================================
 */
-/* Solução do Exercício 3.20 */
+/* Solução do exercício 3.21 */
 #include <stdio.h>
 
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	float Horas_Normais = 40;
-	float Horas_Trabalhadas = 0.0;
-	float Horas_Extras = 1.5;
-	float Salario_Semanal = 0.0;
-	float Valor = 0;
-	float HN = 0, HE = 0;
+	/* declaração de varáveis */
+	double horas;		//total de horas trabalhadas
+	double taxa; 		//taxa de pagamento por hora
+	double salario;		//salario bruto
 
-	/* entrada de dados */
-	printf("Digite # de horas trabalhadas: ");		//entrada de horas
-	scanf("%f", &Horas_Trabalhadas);
+	/* Entre com as primeiras horas do funcionario */
+	printf("Digite as horas trabalhadas: ");
+	scanf("%lf", &horas);
 
-	/* processamento */
-	while (Horas_Trabalhadas != -1)			//enquanto Horas trabalhadas for diferente de -1 continua.
+	/* loop até que a sentinela seja acionada por -1 */
+	while(horas != -1)
 	{
-		printf("Digite o salario por (R$00,00): ");		//Valor da hora por dia
-		scanf("%f", &Valor);
-		if(Horas_Trabalhadas <= Horas_Normais)		//Calculo sem horas extras
+		printf("Digite o valor horario do trabalhador (R$00.00):");
+		scanf("%lf", &taxa);
+
+		if(horas <= 40)
 		{
-			Salario_Semanal = Horas_Trabalhadas * Valor;
-		}
-		else			//Calculo com Horas extras
+			salario =  horas * taxa;
+		} /* termina if */
+		else
 		{
-			HE = Horas_Trabalhadas - Horas_Normais;
-			Salario_Semanal = (Horas_Normais * Valor) + ((HE * Valor) * Horas_Extras);
-		}
-		printf("Salario e de R$%.2f\n\n", Salario_Semanal);		//saída do resultado
-		printf("Digite # de horas trabalhadas (-1 para terminar): ");		// se for igual a -1 termina
-		scanf("%f", &Horas_Trabalhadas);
+			/* calcula o valor com horas extras */
+			salario = 40.0 * taxa + (horas - 40.00) * taxa * 1.5;
+		} /* fim de else */
+
+		/* exibe o pagamento bruto */
+		printf("Salario e R$%.2f\n\n", salario);
+
+		/* solicita nova horas de outro funcionário */
+		printf("Digite as horas (-1 para encerrar): ");
+		scanf("%lf", &horas);
 	}
-	return 0;
-	/* saída de dados */
-}			//fim da função main.
+
+	return 0;		//indica encerramento bem-sucedido.
+}
+/* fim da função main */

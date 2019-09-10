@@ -1,45 +1,38 @@
-//Nome do programa: deithel.c
-//Nome do Autor: Eduardo Felizardo Cândido
-//Data de Criação: 29/06/2019
-//Descrição ou Finalidade: 
-/*3.22 Pré-incrementando versus pós-incrementando. Escreva um programa que demonstre a diferença entre pré-decrementar e pós-decrementar usando o operador de decremento --. */
-
+/*
+ ============================================================================
+ Name			: exercicio_3.22
+ Author      	: Eduardo Felizardo
+ Creation date 	: 06/09/2019
+ Version     	: R00
+ Copyright   	: programacaoedu@gmail.com
+ Description 	: Capitulo_3 - C Como programar - Deitel
+ ============================================================================
+*/
+/*
+ ============================================================================
+3.22 Pré-incrementando versus pós-incrementando. 
+	Escreva um programa que demonstre a diferença entre pré-decrementar e pós
+	-decrementar usando o operador de decremento --.
+ ============================================================================
+*/
+/* Solução do exercício 3.22 */
 #include <stdio.h>
-
-int main(void)		//inicio da função main.
+/* inicio da função main */
+int main()
 {
-	/* declaração das varáveis */
-	int i = 0, j = 0;		//variáveis para a demonstração
+	/* declaração de varáveis */
+	int c;		//variável inteira usada no decremento.
 
-	/* entrada de dados */
-	/* processamento */
-	/* saída de dados */
-	printf("\npos-incrementando\n");
-	while (i < 10)			//pós incremento
-	{
-		printf("Valor e %d\n", i);
-		i++;
-	}
-	i = 0;
-	printf("\nPré-incrementando\n");
-	while (i < 10)			//pré incremento
-	{
-		printf("Valor e %d\n", i);
-		++i;
-	}
-	i = 10;
-	printf("\npós-decrementar\n");
-	while (i > 0)			//pós decremento
-	{
-		printf("Valor e %d\n", i);
-		i--;
-	}
-	i = 10;
-	printf("\npré-decrementar\n");
-	while (i > 0)			//pré decremento
-	{
-		printf("Valor e %d\n", i);
-		--i;
-	}
-	return 0;
-}			//fim da função main.
+	c = 5;
+	printf("%d\n", c);
+	printf("%d\n", --c);
+	printf("%d\n", c);
+
+	c = 5;
+	printf("%d\n", c);
+	printf("%d\n", c--);
+	printf("%d\n", c);
+	
+	return 0; 		//Programa bem-sucedido.
+}
+/* fim da função main */

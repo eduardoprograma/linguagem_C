@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name			: exercicio_3.25
+ Name			: exercicio_X.XX
  Author      	: Eduardo Felizardo
  Creation date 	: 06/09/2019
  Version     	: R00
@@ -10,9 +10,6 @@
 */
 /*
  ============================================================================
-3.25 Saída tabular. 
-	Escreva um programa que use o looping para imprimir a tabela de valores a 
-	seguir. Use a sequência de escape de tabulação, \t, na instrução printf 
-	para separar as colunas com tabulações.
+
  ============================================================================
-*//* */
+*/
