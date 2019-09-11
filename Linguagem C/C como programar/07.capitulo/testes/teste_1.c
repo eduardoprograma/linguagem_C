@@ -19,8 +19,8 @@ int main()
 {
     /* declaração de variáveis */
     int n[5] = {0, 1, 2, 3, 4};/* array do tipo inteira */
-    int *nPtr;/* ponteiro */
-    nPtr = &n;/*Ponteiro aponta para o endereço da array*/
+    int *nPtr = n;/* ponteiro */
+    //nPtr = &n;/*Ponteiro aponta para o endereço da array*/
     int contador;
 
     /* processamento dos dados */
