@@ -13,3 +13,19 @@
 
  ============================================================================
 */
+
+#include<stdio.h>
+int main()
+{
+    char face[13] = {"AS", "Dois", "Tres", "Quatro", "Cinco", "Seis", "Sete", 
+    "Oito", "Nove", "Dez", "Valete", "Dama", "Reis"};
+
+    int cont;
+
+    for(cont = 0; cont < 13; cont++)
+    {
+        /*printf("%s\t%d\n", face[cont], face[cont]);*/
+    }
+
+    return 0;
+}
