@@ -10,17 +10,9 @@
 */
 /*
  ============================================================================
-    7.12 Embaralhamento e distribuição de cartas. Modifique o programa na Fi-
-    gura 7.24 de modo que a função de distribuição de cartas cuide de uma mão 
-    de cinco cartas no pôquer. Depois, escreva as seguintes funções adicionais:
-    a) Determine se a mão contém um par. 
-    b) Determine se a mão contém dois pares. 
-    c) Determine se a mão contém uma trinca (por exemplo, três valetes).
-    d) Determine se a mão contém uma quadra (por exemplo, quatro ases).
-    e) Determine se a mão contém um flush (ou seja, cinco cartas do mesmo nai-
-    pe).
-    f) Determine se a mão contém straight (ou seja, cinco cartas de valores de 
-    naipe consecutivos).
+    7.13 Projeto: embaralhar e distribuir cartas. Use as funções desenvolvid-
+    as no Exercício 7.12 para escrever um programa que trate duas mãos de pô-
+    quer com cinco cartas; avalie cada mão e determine qual é a melhor.
  ============================================================================
 */
 /* Bibliotecas de cabeçalho */

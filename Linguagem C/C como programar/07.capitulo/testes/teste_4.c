@@ -111,7 +111,7 @@ void distribui(const int wbaralho[][13], const char *wFace[], const char *wNaipe
 }
 /* fim da função distribui as cartas */
 
-
+/* Coloca em ordem de 0 a 4 a nossa array */
 void ordem(const int wbaralho[][13], const char *wFace[], const char *wNaipe[])
 {
     int carta;/* contador de cartas */
@@ -153,10 +153,10 @@ void mao(const char *wFace[], const char *wNaipe[])
 {
     int contador;/* contador */
     int contAuxiliar;/*contador auxiliar */
-    int retorno1 = 0;
-    int retorno2 = 0;
-    int contNaipe = 0;
-    int face[] = {0};
+    int retorno1 = 0;/* retorna 0 se a comparação for igual */
+    int retorno2 = 0;/* retorna 0 se a comparação for igual */
+    int contNaipe = 0;/* conta o naipe */
+    int face[] = {0};/* recebe o array para organiza-lo*/
     /* contadores dos tipos de mão */
     int par = 0;
     int doisPares = 0;

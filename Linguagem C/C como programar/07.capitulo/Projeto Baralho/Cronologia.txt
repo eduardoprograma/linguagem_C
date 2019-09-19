@@ -1,0 +1,9 @@
+1º int main;
+2º void embaralha;
+3º void distribui;
+4º void ordem;
+5º void mao;
+6º void bubble;
+7º void swap;
+8º int crescente;
+9º void resultadoMao;.
