@@ -41,6 +41,20 @@ Roteiro e lista de Tarefas:
 - [ ] A estrutura de repetição do…while.
    * Os comandos break e continue.
 
+**4.Funções em C**
+- [ ] Módulos de programa em C.
+- [ ] Funções da biblioteca matemática.
+- [ ] Funções.
+   * Definições de funções.
+   * Protótipos de funções.
+   * Pilha de chamada de funções e registros de ativação.
+   * Cabeçalhos.
+   * Chamando funções por valor e por referência.
+- [ ] Geração de números aleatórios.
+- [ ] Classes de armazenamento.
+- [ ] Regras de escopo.
+- [ ] Recursão.
+- [ ] Recursão versus iteração.
 
 ## Recursos Utilizados 🚀
 
