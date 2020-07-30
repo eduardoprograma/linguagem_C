@@ -56,6 +56,28 @@ Roteiro e lista de Tarefas:
 - [ ] Recursão.
 - [ ] Recursão versus iteração.
 
+**5.Arrays (Matriz) em C**
+- [ ] Arrays.
+   * Declarando arrays.
+   * Exemplos de arrays.
+   * Passando arrays para funções.
+   * Ordenando arrays.
+   * Pesquisando arrays.
+   * Arrays multidimensionais.
+   
+**6.Ponteiros em C**
+- [ ] Declarações e inicialização de variáveis-ponteiro.
+- [ ] Operadores de ponteiros.
+- [ ] Passando argumentos para funções por referência.
+- [ ] Usando o qualificador const com ponteiros.
+- [ ] Bubble sort usando chamada por referência.
+- [ ] Operador sizeof.
+- [ ] Expressões com ponteiros e aritmética de ponteiros.
+- [ ] A relação entre ponteiros e arrays.
+- [ ] Arrays de ponteiros.
+   * Estudo de caso: uma simulação de embaralhamento e distribuição de cartas.
+- [ ] Ponteiros para funções.
+
 ## Recursos Utilizados 🚀
 
 * **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=meanserverlessworkshop-github-gllemos)**
