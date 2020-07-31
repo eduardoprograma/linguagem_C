@@ -111,6 +111,213 @@ Roteiro e lista de Tarefas:
 - [ ] Campos de bit.
 - [ ] Constantes de enumeração.
 
+**Processamento de arquivos em C**
+11.1 Introdução...............................................................................................................................................350
+11.2 Hierarquia de dados................................................................................................................................350
+11.3 Arquivos e streams..................................................................................................................................351
+11.4 Criação de um arquivo de acesso sequencial..........................................................................................352
+11.5 Leitura de dados de um arquivo de acesso sequencial............................................................................357
+11.6 Arquivos de acesso aleatório....................................................................................................................360
+11.7 Criação de um arquivo de acesso aleatório.............................................................................................361
+11.8 Escrita aleatória de dados em um arquivo de acesso aleatório...............................................................362
+11.9 Leitura de dados de um arquivo de acesso aleatório...............................................................................365
+11.10 Estudo de caso: programa de processamento de transações..................................................................366
+
+**E struturas de dados em C**
+12.1 Introdução...............................................................................................................................................380
+12.2 Estruturas autorreferenciadas.................................................................................................................380
+12.3 Alocação dinâmica de memória..............................................................................................................381
+12.4 Listas encadeadas....................................................................................................................................382
+12.5 Pilhas......................................................................................................................................................390
+12.6 Filas.........................................................................................................................................................395
+12.7 Árvores....................................................................................................................................................400
+
+**O pré-processador em C**
+13.1 Introdução...............................................................................................................................................415
+13.2 A diretiva #include do pré-processador................................................................................................415
+13.3 A diretiva #define do pré-processador: constantes simbólicas.............................................................415
+13.4 A diretiva #define do pré-processador: macros....................................................................................416
+13.5 Compilação condicional..........................................................................................................................417
+13.6 As diretivas #error e #pragma do pré-processador...............................................................................418
+13.7 Operadores # e ##...................................................................................................................................419
+13.8 Números de linhas..................................................................................................................................419
+13.9 Constantes simbólicas predefinidas........................................................................................................419
+13.10 Asserções.................................................................................................................................................420
+
+**Outros tópicos sobre C**
+14.1 Introdução...............................................................................................................................................425
+14.2 Redirecionamento de entrada/saída........................................................................................................425
+14.3 Listas de argumentos de tamanhos variáveis..........................................................................................426
+14.4 Uso de argumentos na linha de comando...............................................................................................428
+14.5 Notas sobre a compilação de programas de múltiplos arquivos-fonte....................................................429
+14.6 Término de programas com exit e atexit..........................................................................................430
+14.7 O qualificador de tipo volatile............................................................................................................431
+14.8 Sufixos para constantes inteiras e de ponto flutuante.............................................................................432
+14.9 Mais sobre arquivos.................................................................................................................................432
+14.10 Tratamento de sinais...............................................................................................................................434
+14.11 Alocação dinâmica de memória: funções calloc e realloc................................................................436
+14.12 Desvio incondicional com goto..............................................................................................................436
+
+**C++: um C melhor – introdução à tecnologia de objeto**
+15.1 Introdução...............................................................................................................................................443
+15.2 C++......................................................................................................................................................443
+15.3 Um programa simples: somando dois inteiros.......................................................................................443
+15.4 Biblioteca-padrão de C++.....................................................................................................................445
+xiv C: como programar
+15.5 Arquivos de cabeçalho.............................................................................................................................446
+15.6 Funções inline.........................................................................................................................................448
+15.7 Referências e parâmetros de referência..................................................................................................450
+15.8 Listas de parâmetros vazios.....................................................................................................................454
+15.9 Argumentos default.................................................................................................................................455
+15.10 Operador unário de resolução de escopo................................................................................................457
+15.11 Sobrecarga de função..............................................................................................................................458
+15.12 Templates de função................................................................................................................................461
+15.13 Introdução à tecnologia de objetos e a UML............................................................................................463
+15.14 Conclusão................................................................................................................................................465
+
+**I ntrodução a classes e objetos**
+16.1 Introdução...............................................................................................................................................471
+16.2 Classes, objetos, funções-membro e dados-membro..............................................................................471
+16.3 Definição de uma classe com uma função-membro..............................................................................472
+16.4 Definição de uma função-membro com um parâmetro.........................................................................474
+16.5 Dados-membro, funções set e funções get..........................................................................................477
+16.6 Inicialização de objetos com construtores..............................................................................................483
+16.7 Introdução de uma classe em um arquivo separado para reutilização...................................................486
+16.8 Separação da interface de implementação..............................................................................................489
+16.9 Validação de dados com funções set......................................................................................................494
+16.10 Conclusão................................................................................................................................................498
+
+**Classes: uma visão mais detalhada, parte 1**
+17.1 Introdução...............................................................................................................................................505
+17.2 Estudo de caso da classe time.................................................................................................................505
+17.3 Escopo de classe e acesso a membros de classes....................................................................................511
+17.4 Separação de interface e implementação................................................................................................513
+17.5 Funções de acesso e funções utilitárias...................................................................................................513
+17.6 Estudo de caso da classe time: construtores com argumentos default..................................................516
+17.7 Destrutores..............................................................................................................................................521
+17.8 Quando construtores e destrutores são chamados.................................................................................521
+17.9 Estudo de caso da classe time: uma armadilha sutil —
+retorno de uma referência a um dado-membro private.........................................................................524
+17.10 Atribuição usando cópia membro a membro default..............................................................................526
+17.11 Conclusão................................................................................................................................................528
+
+**Classes: uma visão mais detalhada, parte 2**
+18.1 Introdução...............................................................................................................................................535
+18.2 Objetos const (constantes) e funções-membro const.........................................................................535
+18.3 Composição: objetos como membros de classes....................................................................................543
+Sumário xv
+18.4 Funções friend e classes friend.........................................................................................................549
+18.5 Uso do ponteiro this..............................................................................................................................551
+18.6 Membros de classe static....................................................................................................................556
+18.7 Abstração de dados e ocultação de informações......................................................................................560
+18.8 Conclusão................................................................................................................................................562
+
+**Sobrecarga de operadores**
+19.1 Introdução...............................................................................................................................................568
+19.2 Fundamentos da sobrecarga de operadores............................................................................................568
+19.3 Restrições na sobrecarga de operadores.................................................................................................569
+19.4 Funções operador como membros de classe versus funções operador como funções globais...............571
+19.5 Sobrecarga dos operadores de inserção em stream e de extração de stream..........................................572
+19.6 Sobrecarga de operadores unários..........................................................................................................575
+19.7 Sobrecarga de operadores binários.........................................................................................................575
+19.8 Gerenciamento dinâmico de memória....................................................................................................576
+19.9 Estudo de caso: classe Array.................................................................................................................577
+19.10 Conversão de tipos..................................................................................................................................587
+19.11 Criação de uma classe String...............................................................................................................588
+19.12 Sobrecarga de ++ e --.............................................................................................................................589
+19.13 Estudo de caso: uma classe Date............................................................................................................590
+19.14 Classe string da biblioteca-padrão.......................................................................................................595
+19.15 Construtores explicit..........................................................................................................................597
+19.16 Classes proxy...........................................................................................................................................600
+19.17 Conclusão................................................................................................................................................603
+
+**Programação orientada a objetos: herança**
+20.2 Classes-base e classes derivadas.
+20.3 Membros protected.
+20.4 Relação entre classe-base e classe derivada.
+20.4.1 Criação e uso de uma classe FuncionarioComissao.
+20.4.2 Criação e uso de uma classe FuncionarioBaseMaisComissao sem o uso de herança.
+20.4.3 Criação de uma hierarquia de herança FuncionarioComissao — FuncionarioBaseMaisComissao.
+20.4.4 Hierarquia de herança FuncionarioComissao —
+FuncionarioBaseMaisComissao usando dados protected.
+20.4.5 Hierarquia de herança FuncionarioComissao —
+FuncionarioBaseMaisComissao usando dados private.
+20.5 Construtores e destrutores em classes derivadas.
+20.6 Heranças public, protected e private.
+20.7 Engenharia de software com herança.
+
+**Programação orientada a objeto: polimorfismo**
+21.2 Exemplos de polimorfismo.
+21.3 Relações entre objetos em uma hierarquia de herança.
+21.3.1 Chamada de funções de classe-base por objetos de classe derivada.
+21.3.2 Visando ponteiros de classe derivada em objetos de classe-base.
+21.3.3 Chamadas de função-membro de classe derivada com ponteiros de classe-base.
+21.3.4 Funções virtuais.
+21.3.5 Resumo das atribuições permitidas entre objetos e ponteiros de classe-base e derivada.
+21.4 Campos de tipo e comandos switch.
+21.5 Classes abstratas e funções virtuais puras.
+21.6 Estudo de caso: um sistema de folha de pagamento usando polimorfismo.
+21.6.1 Criação da classe-base abstrata Funcionario.
+21.6.2 Criação da classe derivada concreta FuncionarioSalario.
+21.6.3 Criação da classe derivada concreta FuncionarioHora.
+21.6.4 Criação da classe derivada concreta FuncionarioComissao.
+21.6.5 Criação da classe derivada concreta indireta FuncionarioBaseMaisComissao.
+21.6.6 Demonstração do processamento polimórfico.
+21.7 Polimorfismo, funções virtuais e vinculação dinâmica ‘vistos por dentro’.
+21.8 Estudo de caso: sistema de folha de pagamento usando polimorfismo e informação de tipo em tempo de execução com downcasting, dynamic_cast, typeid e type_info.
+21.9 Destrutores virtuais.
+
+**Templates**
+22.2 Templates de função.
+22.3 Sobrecarga de templates de função.
+22.4 Templates de classe.
+22.5 Parâmetros não tipo e tipos default para templates de classe.
+
+**Entrada e saída de streams**
+23.2 Streams.
+23.2.1 Streams clássicos versus streams-padrão.
+23.2.2 Arquivos de cabeçalho da biblioteca iostream.
+23.2.3 Classes e objetos de entrada/saída de streams.
+23.3 Saída de streams.
+23.3.1 Saída de variáveis char *.
+23.3.2 Saída de caracteres usando a função-membro put.
+23.4 Entrada de streams.
+23.4.1 Funções-membro get e getline.
+23.4.2 Funções-membro peek, putback e ignore de istream.
+23.4.3 E/S segura quanto ao tipo.
+23.5 E/S não formatada com read, write e gcount.
+23.6 Introdução a manipuladores de streams.
+23.6.1 Base do stream de inteiros: dec, oct, hex e setbase.
+23.6.2 Precisão em ponto flutuante (precision, setprecision).
+23.6.3 Largura de campo (width, setw).
+23.6.4 Manipuladores de stream de saída definidos pelo usuário.
+23.7 Tipos de formato do stream e manipuladores de stream.
+23.7.1 Zeros à direita e pontos decimais (showpoint).
+23.7.2 Alinhamento (left, right e internal).
+23.7.3 Preenchimento (fill, setfill).
+23.7.4 Base do stream de inteiros (dec, oct, hex, showbase).
+23.7.5 Números em ponto flutuante; notações científica e fixa (scientific, fixed).
+23.7.6 Controle de maiúsculas/minúsculas (uppercase).
+23.7.7 Especificação do formato booleano (boolalpha).
+23.7.8 Inicialização e reinicialização do estado original com função-membro flags.
+23.8 Estados de erro do stream.
+23.9 Vinculação de um stream de saída a um stream de entrada.
+
+**Tratamento de exceções**
+24.2 Visão geral do tratamento de exceção.
+24.3 Exemplo: tratando uma tentativa de divisão por zero.
+24.4 Quando o tratamento de exceção deve ser usado.
+24.5 Indicação de uma exceção.
+24.6 Especificações de exceção.
+24.7 Processamento de exceções inesperadas.
+24.8 Desempilhamento.
+24.9 Construtores, destrutores e tratamento de exceções.
+24.10 Exceções e herança.
+24.11 Processamento de falhas de new.
+24.12 Classe auto_ptr e alocação dinâmica de memória.
+24.13 Hierarquia de exceções da biblioteca-padrão.
+24.14 Outras técnicas de tratamento de erros.
+
 ## Recursos Utilizados 🚀
 
 * **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=meanserverlessworkshop-github-gllemos)**
