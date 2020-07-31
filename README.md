@@ -78,6 +78,39 @@ Roteiro e lista de Tarefas:
    * Estudo de caso: uma simulação de embaralhamento e distribuição de cartas.
 - [ ] Ponteiros para funções.
 
+**7.Caracteres e strings em C**
+- [ ] Fundamentos de strings e caracteres.
+- [ ] Biblioteca de tratamento de caracteres.
+- [ ] Funções de conversão de strings.
+- [ ] Funções da biblioteca-padrão de entrada/saída.
+- [ ] Funções de manipulação de strings da biblioteca de tratamento de strings.
+- [ ] Funções de comparação da biblioteca de tratamento de strings.
+- [ ] Funções de pesquisa da biblioteca de tratamento de strings.
+- [ ] Funções de memória da biblioteca de tratamento de strings.
+
+**8.Entrada/saída formatada em C**
+- [ ] Streams.
+- [ ] Formatação da saída com printf.
+- [ ] Impressão de inteiros.
+- [ ] Impressão de números em ponto flutuante.
+- [ ] Impressão de strings e caracteres.
+- [ ] Outros especificadores de conversão.
+- [ ] Impressão com larguras de campo e precisão.
+- [ ] Uso de flags na string de controle de formato de printf.
+- [ ] Impressão de literais e de sequências de escape.
+- [ ] Leitura da entrada formatada com scanf.
+
+**9.Estruturas, uniões, manipulações de bits e enumerações em C**
+- [ ] Declarações de estruturas.
+- [ ] Inicialização de estruturas.
+- [ ] Acesso aos membros da estrutura.
+- [ ] Uso de estruturas com funções.
+- [ ] typedef.
+- [ ] Uniões.
+- [ ] Operadores sobre bits.
+- [ ] Campos de bit.
+- [ ] Constantes de enumeração.
+
 ## Recursos Utilizados 🚀
 
 * **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=meanserverlessworkshop-github-gllemos)**
