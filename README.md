@@ -1,6 +1,6 @@
 # Aprendendo Linguagem C
 
-[![bit-community.png](https://i.postimg.cc/sDGGYNpx/c2-360x240.png)](https://postimg.cc/nCZLZTSf)
+[![bit-community.png](https://i.postimg.cc/sDGGYNpx/c2-360x240.png)](https://postimg.cc/nCZLZTSf)     
 
 ___*Desenvolvimento*___ e ___*Aprendizagem*___ em ___*Linguagem de Programação C*___
 
@@ -8,7 +8,7 @@ Repositório responsável por arquivar o conhecimento adquirido durante a aporen
 
 ## Como pretendo aprender?! 📙
 
-Durante essa escalada em busca do conhecimento desta linguagem utilizarei o Livro ___*C - Como programar*__ de Paul Deitel!
+Durante essa escalada em busca do conhecimento desta linguagem utilizarei o Livro ___*C - Como programar*__ de Paul Deitel! [![download.jpg](https://i.postimg.cc/2jbr36gm/download.jpg)](https://postimg.cc/jCbGFssk)
 
 Roteiro e lista de Tarefas:
 
