@@ -306,5 +306,5 @@ Roteiro e lista de Tarefas:
 ## Contato ⭐️
 
 * 📧 **eduardo.candido@fatec.sp.gov.br**
-* 🔴 **[YouTube](https://www.youtube.com/channel/UCVrqUODniQ-hkvjsWu7df6Q?view_as=subscriber)
-* 🔵 **[Dudu Felizardo](https://www.facebook.com/Dudu-Felizardo-464902280674884)
+* 🔴 **[YouTube](https://www.youtube.com/channel/UCVrqUODniQ-hkvjsWu7df6Q?view_as=subscriber)**
+* 🔵 **[Dudu Felizardo](https://www.facebook.com/Dudu-Felizardo-464902280674884)**
