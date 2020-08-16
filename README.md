@@ -20,19 +20,19 @@ Roteiro e lista de Tarefas:
 - ✅ Tomada de decisões: Operadores Relacionais e de Igualdade.
 
 **2. Desenvolvimento estruturado de programas em C**
-- 🔲 Algoritmos, Pseudocódigo.
-- 🔲 Estruturas de controle:
+- ✅ Algoritmos, Pseudocódigo.
+- ✅ Estruturas de controle:
    * A estrutura de seleção if.
    * A estrutura de seleção if…else.
    * A estrutura de repetição while.
-- 🔲 Formulando algoritmos: 
+- ✅ Formulando algoritmos: 
    * Estudo de caso 1 (repetição controlada por contador).
-- 🔲 Formulando algoritmos com refinamentos sucessivos top-down:
+- ✅ Formulando algoritmos com refinamentos sucessivos top-down:
    * Estudo de caso 2 (repetição controlada por sentinela).
-- 🔲 Formulando algoritmos com refinamentos sucessivos top-down:
+- ✅ Formulando algoritmos com refinamentos sucessivos top-down:
    * Estudo de caso 3 (estruturas de controle aninhadas).
-- 🔲 Operadores de atribuição.
-- 🔲 Operadores de incremento e decremento.
+- ✅ Operadores de atribuição.
+- ✅ Operadores de incremento e decremento.
 
 **3. Controle de programa em C**
 - 🔲 Repetição controlada por contador.
